@@ -48,3 +48,53 @@ $(".show_more").on("click", function() {
     $(this).siblings(".hide_text").addClass("hide_text_active");
     $(this).remove();
 });
+
+$('ul.tabs__caption').on('click', 'li:not(.active)', function() {
+    $(this)
+        .addClass('active').siblings().removeClass('active')
+        .closest('div.generate_casino_tab').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+});
+
+
+const swiper = new Swiper('.swiper_casino', {
+    loop: true,
+    centerInsufficientSlides: false,
+    centeredSlides: false,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    grabCursor: true,
+    autoplay: {
+        delay: 2500,
+    },
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 15
+        },
+        // when window width is >= 480px
+        576: {
+            slidesPerView: 3,
+            spaceBetween: 15
+        },
+        768: {
+            slidesPerView: 4,
+            spaceBetween: 15
+        },
+        1100: {
+            slidesPerView: 7,
+            spaceBetween: 20
+        }
+    },
+    //If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});

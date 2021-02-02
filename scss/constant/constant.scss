@@ -4,7 +4,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    background: #E5E5E5;
+    background: #f8f9fc;
     font-family: 'Inter', sans-serif;
 }
 
@@ -24,6 +24,14 @@ p {
 
 button {
     outline: none;
+}
+
+.tabs__content {
+    display: none;
+}
+
+.tabs__content.active {
+    display: block;
 }
 
 .padding {
