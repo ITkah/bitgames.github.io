@@ -83,7 +83,7 @@ const swiper = new Swiper('.swiper_casino', {
         },
         1100: {
             slidesPerView: 7,
-            spaceBetween: 20
+            spaceBetween: 15
         }
     },
     //If we need pagination
@@ -94,7 +94,7 @@ const swiper = new Swiper('.swiper_casino', {
 
     // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.right_slider',
+        prevEl: '.left_slider',
     },
 });

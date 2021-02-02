@@ -184,8 +184,10 @@
         }
     }
     .swiper-container {
-        padding-bottom: 10px;
+        margin: 0 40px;
+        padding: 12px;
         @media (max-width: 990px) {
+            margin: 0;
             padding: 0 10px 30px 10px;
         }
         .generate_casino_box {
@@ -196,33 +198,53 @@
             }
         }
     }
+    .generate_casino_slider {
+        position: relative;
+        .left_slider {
+            height: 33px;
+            cursor: pointer;
+            width: 33px;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            opacity: 1;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+            border-radius: 3px;
+            position: absolute;
+            left: 0;
+            top: 42%;
+            @media (max-width: 990px) {
+                opacity: 0;
+            }
+        }
+        .right_slider {
+            height: 33px;
+            cursor: pointer;
+            width: 33px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            opacity: 1;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+            border-radius: 3px;
+            position: absolute;
+            right: 0;
+            top: 42%;
+            outline: none;
+            @media (max-width: 990px) {
+                opacity: 0;
+            }
+        }
+    }
     .swiper-button-next:after,
     .swiper-button-prev:after {
         display: none;
     }
     .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
         outline: none;
-    }
-    .swiper-button-next {
-        right: 5px;
-    }
-    .swiper-button-prev {
-        left: 5px;
-    }
-    .swiper-button-next,
-    .swiper-button-prev {
-        height: 33px;
-        width: 33px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #fff;
-        opacity: 1;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
-        border-radius: 3px;
-        @media (max-width: 990px) {
-            opacity: 0;
-        }
     }
     .swiper-pagination {
         opacity: 0;
