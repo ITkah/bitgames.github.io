@@ -43,3 +43,8 @@ $('.faq_wrap .acc_head').on('click', function() {
     $('.faq_wrap .acc_body').not($(this).next()).slideUp(150).parent().removeClass("active_acc");
     $(this).next().slideToggle(150).parent().toggleClass('active_acc');
 });
+
+$(".show_more").on("click", function() {
+    $(this).siblings(".hide_text").addClass("hide_text_active");
+    $(this).remove();
+});

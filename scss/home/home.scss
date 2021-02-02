@@ -1,3 +1,138 @@
+.home_section {
+    background: #292c98;
+    .container {
+        padding: 60px 0;
+        @media (max-width: 990px) {
+            padding: 25px 0;
+        }
+    }
+    .home_section_wrap {
+        display: grid;
+        grid-template-columns: 750px 1fr;
+        @media (max-width: 990px) {
+            display: block;
+        }
+        .info_title {
+            margin-bottom: 8px;
+            color: #fff;
+            font: 700 2rem 'Inter', sans-serif;
+            @media (max-width: 990px) {
+                font: 700 1.4rem 'Inter', sans-serif;
+            }
+        }
+        .info_title_sm {
+            margin-bottom: 8px;
+            color: #fff;
+            font: 700 1.5rem 'Inter', sans-serif;
+            @media (max-width: 990px) {
+                text-align: center;
+                font: 700 1.2rem 'Inter', sans-serif;
+            }
+        }
+        .info_text {
+            font: 400 .95rem/24px 'Inter', sans-serif;
+            opacity: .9;
+            color: #fff;
+            margin-bottom: 35px;
+            @media (max-width: 990px) {
+                font: 400 .87rem/21px 'Inter', sans-serif;
+                margin-bottom: 15px;
+            }
+            br {
+                @media (max-width: 990px) {
+                    display: none;
+                }
+            }
+        }
+        .info_text:last-child {
+            margin: 0;
+        }
+        .hide_text {
+            @media (max-width: 576px) {
+                height: 100px;
+                width: 230px;
+                overflow-y: hidden;
+            }
+        }
+        .hide_text_active {
+            height: auto;
+        }
+        .show_more {
+            display: none;
+            @media (max-width: 576px) {
+                display: block;
+                color: #55B56B;
+                font: 400 .87rem 'Inter', sans-serif;
+                opacity: .9;
+                margin: 5px 0 10px 0;
+            }
+            &::after {
+                position: relative;
+                left: 5px;
+                content: url(../img/home/arr_show.svg);
+            }
+        }
+    }
+}
+
+.games {
+    position: relative;
+    top: -40px;
+    margin-bottom: -20px;
+    @media (max-width: 990px) {
+        top: -15px;
+        margin-bottom: 0;
+    }
+    .games_wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        margin-bottom: 15px;
+        @media (max-width: 990px) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .games_box {
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: #FFF;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, .15);
+            border-radius: 5px;
+            padding: 5px;
+            @media (max-width: 990px) {
+                height: 102px;
+                padding: 10px 5px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                min-height: 60px;
+                margin-bottom: 10px;
+                @media (max-width: 990px) {
+                    max-width: 60px;
+                    min-height: 70px;
+                }
+            }
+            .games_info {
+                text-align: center;
+                font: 400 .87rem 'Inter', sans-serif;
+                @media (max-width: 990px) {
+                    white-space: nowrap;
+                    font: 400 .75rem 'Inter', sans-serif;
+                }
+            }
+        }
+    }
+    .games_text {
+        font: 400 .95rem/22px 'Inter', sans-serif;
+        @media (max-width: 990px) {
+            font: 400 .87rem/20px 'Inter', sans-serif;
+        }
+    }
+}
+
 .latest_news {
     margin-bottom: 25px;
     .latest_news_title {
@@ -115,6 +250,7 @@
 
 .about {
     background: url(../img/home/about_bg.svg) no-repeat center center/cover;
+    background-color: #262845;
     margin-bottom: 25px;
     .container {
         padding: 35px 0;
