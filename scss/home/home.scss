@@ -77,8 +77,8 @@
 
 .games {
     position: relative;
-    top: -40px;
-    margin-bottom: -20px;
+    top: -35px;
+    margin-bottom: -10px;
     @media (max-width: 990px) {
         top: -15px;
         margin-bottom: 0;
@@ -129,6 +129,118 @@
         font: 400 .95rem/22px 'Inter', sans-serif;
         @media (max-width: 990px) {
             font: 400 .87rem/20px 'Inter', sans-serif;
+        }
+    }
+}
+
+.find {
+    background: #F0F3FC;
+    margin-bottom: 35px;
+    @media (max-width: 990px) {
+        margin-bottom: 30px;
+    }
+    .container {
+        padding: 30px 0;
+        @media (max-width: 990px) {
+            padding: 20px 0;
+        }
+    }
+    .find_wrap {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        grid-gap: 40px;
+        padding: 0 50px;
+        @media (max-width: 990px) {
+            display: block;
+            padding: 0;
+        }
+    }
+    .find_box {
+        .find_title {
+            margin-bottom: 5px;
+            font: 700 1.25rem 'Inter', sans-serif;
+            @media (max-width: 990px) {
+                text-align: center;
+            }
+        }
+        .find_text {
+            font: 400 .95rem/22px 'Inter', sans-serif;
+            margin-bottom: 20px;
+            max-width: 80%;
+            @media (max-width: 990px) {
+                text-align: center;
+                margin-bottom: 15px;
+                font: 400 .87rem/21px 'Inter', sans-serif;
+                max-width: 100%;
+            }
+        }
+    }
+    .find_form {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 25px;
+        align-items: end;
+        @media (max-width: 990px) {
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 15px;
+        }
+        @media (max-width: 576px) {
+            grid-template-columns: 1fr;
+        }
+        .form_select_box {
+            p {
+                display: block;
+                margin-bottom: 10px;
+                font: 700 1rem 'Inter', sans-serif;
+            }
+            .form_select {
+                position: relative;
+                &::before {
+                    content: url(../img/home/select_arr.svg);
+                    position: absolute;
+                    pointer-events: none;
+                    right: 20px;
+                    top: 12px;
+                    @media (max-width: 990px) {
+                        top: 13px;
+                    }
+                }
+                select {
+                    font: 400 1rem 'Inter', sans-serif;
+                    background: #E7EAF2;
+                    border-radius: 3px;
+                    border: none;
+                    outline: none;
+                    padding: 15px;
+                    width: 100%;
+                    box-sizing: border-box;
+                    appearance: none;
+                }
+            }
+        }
+        .form_send {
+            cursor: pointer;
+            padding: 15px;
+            width: 100%;
+            box-sizing: border-box;
+            background: #6CDA75;
+            border-radius: 3px;
+            appearance: none;
+            border: none;
+            color: #fff;
+            text-transform: uppercase;
+            font: 700 1rem 'Inter', sans-serif;
+            text-align: center;
+            outline: none;
+        }
+    }
+    .find_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 190px;
+        @media (max-width: 990px) {
+            display: none;
         }
     }
 }

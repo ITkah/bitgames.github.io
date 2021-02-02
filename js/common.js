@@ -29,7 +29,7 @@ $(".close_menu").on("click", function() {
 
 $(".call_lang").on("click", function() {
     $(".select_lang_wrap").slideToggle(200);
-    $(".header_nav ul").slideToggle(200);
+    $(".header_nav ul").toggle();
 });
 
 $('.phone').on('input', function() {
