@@ -94,7 +94,8 @@ header {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
-      display: flex; }
+      display: flex;
+      width: 100%; }
       .header_mob .header_mob_panel .search_form .input_search {
         -webkit-appearance: none;
            -moz-appearance: none;
