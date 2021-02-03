@@ -64,7 +64,7 @@ const swiper = new Swiper('.swiper_casino', {
     spaceBetween: 20,
     grabCursor: true,
     autoplay: {
-        delay: 2500,
+        delay: 4500,
     },
     breakpoints: {
         // when window width is >= 320px
@@ -97,4 +97,10 @@ const swiper = new Swiper('.swiper_casino', {
         nextEl: '.right_slider',
         prevEl: '.left_slider',
     },
+});
+
+$(".call_hide_item").on("click", function(e) {
+    e.preventDefault();
+    $(this).toggleClass("active_link");
+    $(this).parent().parent().siblings(".item_hide_wrap").slideToggle(200);
 });

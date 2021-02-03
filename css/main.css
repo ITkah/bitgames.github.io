@@ -772,6 +772,402 @@ header {
       .games .games_text {
         font: 400 .87rem/20px 'Inter', sans-serif; } }
 
+.raiting {
+  margin-bottom: 35px; }
+  .raiting .generate_casino_title {
+    text-align: center;
+    margin-bottom: 15px; }
+  .raiting .raiting_wrap {
+    border-radius: 10px;
+    overflow: hidden; }
+    @media (max-width: 990px) {
+      .raiting .raiting_wrap {
+        border-radius: 0; } }
+  .raiting .raiting_wrap_title {
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr 2fr 3fr;
+    background: #42456B;
+    padding: 0 20px; }
+    @media (max-width: 1200px) {
+      .raiting .raiting_wrap_title {
+        display: none; } }
+    .raiting .raiting_wrap_title p {
+      color: #FFF;
+      padding: 10px 0;
+      opacity: .5;
+      font: 400 1.125rem 'Inter', sans-serif; }
+  .raiting .raiting_container {
+    background: #fff;
+    padding: 15px 20px; }
+    @media (max-width: 1200px) {
+      .raiting .raiting_container {
+        background: transparent;
+        padding: 0; } }
+    .raiting .raiting_container .raiting_item_box {
+      display: grid;
+      grid-template-columns: 1fr; }
+      @media (max-width: 1200px) {
+        .raiting .raiting_container .raiting_item_box {
+          border: none;
+          border-radius: 5px;
+          background: #fff;
+          padding: 15px;
+          margin-bottom: 10px; } }
+    .raiting .raiting_container .item_short_wrap {
+      display: grid;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      grid-template-columns: 3fr 1fr 2fr 2fr 3fr;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+      @media (max-width: 1200px) {
+        .raiting .raiting_container .item_short_wrap {
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 15px;
+          border: none;
+          margin: 0;
+          padding: 0; } }
+      .raiting .raiting_container .item_short_wrap .hide_title {
+        display: none; }
+        @media (max-width: 1200px) {
+          .raiting .raiting_container .item_short_wrap .hide_title {
+            display: block;
+            color: #000;
+            margin-bottom: 5px;
+            opacity: .5;
+            font: 400 1rem 'Inter', sans-serif; } }
+      .raiting .raiting_container .item_short_wrap .item_img_casino {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        @media (max-width: 1200px) {
+          .raiting .raiting_container .item_short_wrap .item_img_casino {
+            grid-column-start: 1;
+            grid-column-end: 3; } }
+        .raiting .raiting_container .item_short_wrap .item_img_casino img {
+          max-width: 100%;
+          height: auto;
+          -o-object-fit: contain;
+             object-fit: contain;
+          margin-right: 15px; }
+        .raiting .raiting_container .item_short_wrap .item_img_casino .item_img_casino_info p {
+          color: #000;
+          margin-bottom: 5px;
+          font: 700 1.2rem 'Inter', sans-serif; }
+        .raiting .raiting_container .item_short_wrap .item_img_casino .item_img_casino_info a {
+          font: 400 1rem 'Inter', sans-serif;
+          color: #4482CD; }
+      .raiting .raiting_container .item_short_wrap .item_bonus_casino {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        @media (max-width: 1200px) {
+          .raiting .raiting_container .item_short_wrap .item_bonus_casino {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: start;
+            -webkit-align-items: flex-start;
+                -ms-flex-align: start;
+                    align-items: flex-start; } }
+        .raiting .raiting_container .item_short_wrap .item_bonus_casino .item_bonus_casino_sm {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          .raiting .raiting_container .item_short_wrap .item_bonus_casino .item_bonus_casino_sm p {
+            margin-right: 7px;
+            color: #FFCF24;
+            font: 700 1.6rem 'Inter', sans-serif; }
+      @media (max-width: 1200px) {
+        .raiting .raiting_container .item_short_wrap .item_features_casino {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 2; } }
+      .raiting .raiting_container .item_short_wrap .item_features_casino p {
+        font: 400 .95rem 'Inter', sans-serif;
+        color: #111111;
+        max-width: 140px; }
+      @media (max-width: 1200px) {
+        .raiting .raiting_container .item_short_wrap .item_live_casino {
+          grid-column-start: 3;
+          grid-column-end: 4;
+          grid-row-start: 1; } }
+      .raiting .raiting_container .item_short_wrap .item_live_casino .item_live_casino_text {
+        text-transform: uppercase;
+        font: 700 1.6rem 'Inter', sans-serif;
+        color: #111111; }
+      .raiting .raiting_container .item_short_wrap .item_btn_casino {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px; }
+        @media (max-width: 1200px) {
+          .raiting .raiting_container .item_short_wrap .item_btn_casino {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center; } }
+        @media (max-width: 576px) {
+          .raiting .raiting_container .item_short_wrap .item_btn_casino {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px; } }
+        .raiting .raiting_container .item_short_wrap .item_btn_casino .call_hide_item {
+          text-align: center;
+          text-transform: uppercase;
+          font: 700 1rem 'Inter', sans-serif;
+          padding: 10px 20px;
+          color: #4F4F4F;
+          border-radius: 3px;
+          white-space: nowrap;
+          -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); }
+          .raiting .raiting_container .item_short_wrap .item_btn_casino .call_hide_item img {
+            position: relative;
+            left: 4px;
+            max-width: 100%;
+            height: auto;
+            top: 1px; }
+        .raiting .raiting_container .item_short_wrap .item_btn_casino .active_link img {
+          -webkit-transform: rotate(180deg);
+              -ms-transform: rotate(180deg);
+                  transform: rotate(180deg); }
+        .raiting .raiting_container .item_short_wrap .item_btn_casino .link_item {
+          text-align: center;
+          text-transform: uppercase;
+          font: 700 1rem 'Inter', sans-serif;
+          padding: 10px 20px;
+          background: #6CDA75;
+          border-radius: 3px;
+          color: #fff;
+          white-space: nowrap; }
+    .raiting .raiting_container .raiting_item_box:last-child .item_short_wrap {
+      border: none;
+      margin: 0;
+      padding-bottom: 0; }
+  .raiting .raiting_btn_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 15px; }
+    @media (max-width: 990px) {
+      .raiting .raiting_btn_wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 10px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between; } }
+    .raiting .raiting_btn_wrap a {
+      font: 700 1rem 'Inter', sans-serif;
+      color: #4482CD;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding: 15px 25px; }
+      @media (max-width: 576px) {
+        .raiting .raiting_btn_wrap a {
+          padding: 15px;
+          font: 700 .87rem 'Inter', sans-serif; } }
+      .raiting .raiting_btn_wrap a img {
+        margin-left: 5px; }
+    .raiting .raiting_btn_wrap .show_more {
+      grid-column-start: 2;
+      margin: 0 auto;
+      border-radius: 3px;
+      background: #ECF1FF; }
+      @media (max-width: 990px) {
+        .raiting .raiting_btn_wrap .show_more {
+          margin-left: 0; } }
+      .raiting .raiting_btn_wrap .show_more img {
+        position: relative;
+        top: 1px; }
+    .raiting .raiting_btn_wrap .view_all {
+      padding-right: 0;
+      margin: 0 auto;
+      margin-right: 0;
+      grid-column-start: 3; }
+      .raiting .raiting_btn_wrap .view_all img {
+        position: relative;
+        top: 1px; }
+  .raiting .item_hide_wrap {
+    margin-top: 10px;
+    display: none;
+    margin-bottom: 20px; }
+    @media (max-width: 1200px) {
+      .raiting .item_hide_wrap {
+        margin-bottom: 0; } }
+  .raiting .hide_btn_wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .raiting .hide_btn_wrap .hide_btn {
+      padding: 10px 20px;
+      border: 2px solid #4482CD;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border-radius: 3px;
+      color: #4482CD;
+      text-align: center;
+      margin: 0 auto;
+      font: 700 1.125rem 'Inter', sans-serif; }
+  .raiting .hide_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-bottom: 10px; }
+    @media (max-width: 1200px) {
+      .raiting .hide_container {
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+        grid-gap: 10px; } }
+    .raiting .hide_container .item_hide_title {
+      margin-bottom: 10px;
+      font: 700 1.125rem 'Inter', sans-serif; }
+    .raiting .hide_container .item_hide_text {
+      font: 400 .95rem/22px 'Inter', sans-serif; }
+    .raiting .hide_container .item_hide_list {
+      padding: 0 20px;
+      border-left: 1px solid rgba(0, 0, 0, 0.2);
+      border-right: 1px solid rgba(0, 0, 0, 0.2); }
+      @media (max-width: 1200px) {
+        .raiting .hide_container .item_hide_list {
+          border: none;
+          padding: 15px 0;
+          border-top: 1px solid rgba(0, 0, 0, 0.2);
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2); } }
+      .raiting .hide_container .item_hide_list ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 12px; }
+        .raiting .hide_container .item_hide_list ul li {
+          padding-left: 30px;
+          position: relative;
+          font: 400 .95rem 'Inter', sans-serif; }
+        .raiting .hide_container .item_hide_list ul .minus::before {
+          content: '+';
+          height: 21px;
+          width: 21px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          color: #fff;
+          position: absolute;
+          left: 0;
+          background: #FF4B55;
+          top: -2px;
+          border-radius: 50%;
+          font: 700 1rem 'Inter', sans-serif; }
+        .raiting .hide_container .item_hide_list ul .plus::before {
+          content: '-';
+          height: 21px;
+          width: 21px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          border-radius: 50%;
+          background: #6CDA75;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          color: #fff;
+          position: absolute;
+          left: 0;
+          top: -2px;
+          font: 700 1rem 'Inter', sans-serif; }
+    .raiting .hide_container .quick_box {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 140px 1fr;
+      margin-bottom: 12px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .raiting .hide_container .quick_box .quick_title {
+        font: 400 .95rem 'Inter', sans-serif;
+        color: rgba(0, 0, 0, 0.3); }
+      .raiting .hide_container .quick_box .quick_item {
+        font: 400 .95rem 'Inter', sans-serif; }
+      .raiting .hide_container .quick_box a {
+        color: #4482CD; }
+      .raiting .hide_container .quick_box .sup {
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis;
+        width: 160px;
+        overflow: hidden;
+        color: #000;
+        text-decoration: underline; }
+
 .generate_casino {
   margin-bottom: 45px; }
   .generate_casino .generate_casino_title {
