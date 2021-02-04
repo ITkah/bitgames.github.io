@@ -653,10 +653,45 @@ header {
         padding: 25px 0; } }
   .home_section .home_section_wrap {
     display: grid;
+    position: relative;
     grid-template-columns: 750px 1fr; }
     @media (max-width: 990px) {
       .home_section .home_section_wrap {
         display: block; } }
+    .home_section .home_section_wrap .home_img {
+      position: absolute;
+      max-width: 100%;
+      height: auto;
+      right: -100px;
+      top: -20px; }
+      @media (max-width: 1400px) {
+        .home_section .home_section_wrap .home_img {
+          right: -200px; } }
+      @media (max-width: 990px) {
+        .home_section .home_section_wrap .home_img {
+          right: -150px;
+          top: 0;
+          right: -100px;
+          max-width: 320px;
+          max-height: 220px; } }
+      @media (max-width: 576px) {
+        .home_section .home_section_wrap .home_img {
+          right: -120px;
+          max-width: 280px;
+          max-height: 180px;
+          -o-object-fit: contain;
+             object-fit: contain;
+          right: -100px;
+          top: 40px; } }
+      @media (max-width: 340px) {
+        .home_section .home_section_wrap .home_img {
+          right: -100px;
+          top: 90px;
+          max-width: 240px;
+          max-height: 140px; } }
+    .home_section .home_section_wrap .home_info_box {
+      z-index: 9;
+      position: relative; }
     .home_section .home_section_wrap .info_title {
       margin-bottom: 8px;
       color: #fff;
@@ -686,7 +721,7 @@ header {
           display: none; } }
     .home_section .home_section_wrap .info_text:last-child {
       margin: 0; }
-    @media (max-width: 576px) {
+    @media (max-width: 990px) {
       .home_section .home_section_wrap .hide_text {
         height: 100px;
         width: 230px;
@@ -695,7 +730,7 @@ header {
       height: auto; }
     .home_section .home_section_wrap .show_more {
       display: none; }
-      @media (max-width: 576px) {
+      @media (max-width: 990px) {
         .home_section .home_section_wrap .show_more {
           display: block;
           color: #55B56B;

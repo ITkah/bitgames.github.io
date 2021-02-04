@@ -8,9 +8,45 @@
     }
     .home_section_wrap {
         display: grid;
+        position: relative;
         grid-template-columns: 750px 1fr;
         @media (max-width: 990px) {
             display: block;
+        }
+        .home_img {
+            position: absolute;
+            max-width: 100%;
+            height: auto;
+            right: -100px;
+            top: -20px;
+            @media (max-width: 1400px) {
+                right: -200px;
+            }
+            @media (max-width: 990px) {
+                right: -150px;
+                top: 0;
+                right: -100px;
+                max-width: 320px;
+                max-height: 220px;
+            }
+            @media (max-width: 576px) {
+                right: -120px;
+                max-width: 280px;
+                max-height: 180px;
+                object-fit: contain;
+                right: -100px;
+                top: 40px;
+            }
+            @media (max-width: 340px) {
+                right: -100px;
+                top: 90px;
+                max-width: 240px;
+                max-height: 140px;
+            }
+        }
+        .home_info_box {
+            z-index: 9;
+            position: relative;
         }
         .info_title {
             margin-bottom: 8px;
@@ -48,7 +84,7 @@
             margin: 0;
         }
         .hide_text {
-            @media (max-width: 576px) {
+            @media (max-width: 990px) {
                 height: 100px;
                 width: 230px;
                 overflow-y: hidden;
@@ -59,7 +95,7 @@
         }
         .show_more {
             display: none;
-            @media (max-width: 576px) {
+            @media (max-width: 990px) {
                 display: block;
                 color: #55B56B;
                 font: 400 .87rem 'Inter', sans-serif;
