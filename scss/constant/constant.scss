@@ -36,7 +36,7 @@ button {
 
 .padding {
     padding: 0 70px;
-    @media (max-width: 1280px) {
+    @media (max-width: 1400px) {
         padding: 0 30px;
     }
     @media (max-width: 990px) {
@@ -46,8 +46,8 @@ button {
 
 .padding_mob {
     padding: 0 70px;
-    @media (max-width: 1280px) {
-        padding: 0 45px;
+    @media (max-width: 1400px) {
+        padding: 0 30px;
     }
     @media (max-width: 990px) {
         padding: 0 15px;
@@ -59,8 +59,8 @@ button {
 
 .padding_sm {
     padding: 0 70px;
-    @media (max-width: 1280px) {
-        padding: 0 45px;
+    @media (max-width: 1400px) {
+        padding: 0 30px;
     }
     @media (max-width: 990px) {
         padding: 0 15px;

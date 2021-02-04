@@ -104,3 +104,20 @@ $(".call_hide_item").on("click", function(e) {
     $(this).toggleClass("active_link");
     $(this).parent().parent().siblings(".item_hide_wrap").slideToggle(200);
 });
+
+
+$(".blog_filter_select select").on("click", function() {
+    $('.blog_filter_select select').not(this).parent().removeClass("img_active");
+    $(this).parent().toggleClass("img_active");
+});
+
+$(".blog_filter_select select").on("mouseleave", function() {
+    $(".blog_filter_select").removeClass("img_active");
+    $(this).blur();
+});
+
+
+$(".blog_filter_call").on("click", function() {
+    $(this).toggleClass("blog_filter_call_active")
+    $(".blog_filter_wrap").slideToggle(200);
+});
