@@ -1,0 +1,188 @@
+.sidebar {
+    margin-bottom: 20px;
+    @media (max-width: 576px) {
+        padding: 0 10px;
+    }
+}
+
+.siderbar_visited {
+    padding: 10px 15px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    margin-bottom: 15px;
+    .siderbar_visited_box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+        .siderbar_visited_img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                margin-right: 8px;
+                max-width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+            p {
+                font: 400 1rem 'Inter', sans-serif;
+            }
+        }
+        .visited_btn {
+            font: 700 1rem 'Inter', sans-serif;
+            padding: 9px 12px;
+            color: #fff;
+            text-transform: uppercase;
+            background: #6CDA75;
+            border-radius: 2px;
+        }
+    }
+    .siderbar_visited_box:last-child {
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+}
+
+.sidebar_guides {
+    padding: 10px 0;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    margin-bottom: 15px;
+    .sidebar_title {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 5px;
+    }
+    .sidebar_guides_box {
+        padding: 7px 15px;
+        display: grid;
+        grid-template-columns: 55px 1fr;
+        grid-gap: 10px;
+        align-items: center;
+        transition: .2s;
+        &:hover {
+            background: #F5F5F5;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        p {
+            color: #000;
+            font: 400 1rem/24px 'Inter', sans-serif;
+        }
+    }
+    .sidebar_guides_box:last-child {
+        margin: 0;
+    }
+}
+
+.sidebar_chek {
+    padding: 10px 0;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    margin-bottom: 15px;
+    .sidebar_title {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 5px;
+    }
+    .sidebar_guides_box {
+        padding: 5px 15px;
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        grid-gap: 10px;
+        align-items: center;
+        transition: .2s;
+        &:hover {
+            background: #F5F5F5;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+        p {
+            color: #000;
+            font: 400 .87em 'Inter', sans-serif;
+        }
+    }
+    .sidebar_guides_box:last-child {
+        margin: 0;
+    }
+}
+
+.sidebar_interview {
+    padding: 10px 15px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    .sidebar_title {
+        font: 700 .95rem/22px 'Inter', sans-serif;
+    }
+    label {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+        margin-bottom: 8px;
+        input {
+            margin: 0;
+            margin-right: 10px;
+            width: 17px;
+            height: 17px;
+            outline: none;
+        }
+        p {
+            font: 400 .95rem 'Inter', sans-serif;
+        }
+    }
+    .sidebar_interview_wrap {
+        margin-bottom: 12px;
+        label:last-child {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+    }
+    .send_inter {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        button {
+            appearance: none;
+            outline: none;
+            border: none;
+            padding: 5px 10px;
+            background: #F5F5F5;
+            border-radius: 2px;
+            cursor: pointer;
+            color: #B4B4B4;
+            font: 700 .95rem 'Inter', sans-serif;
+            img {
+                margin-left: 5px;
+                position: relative;
+                top: 1px;
+            }
+        }
+    }
+}
+
+.sidebar_title {
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font: 700 1.2rem 'Inter', sans-serif;
+}

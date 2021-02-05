@@ -238,6 +238,10 @@
                     opacity: .5;
                     font: 400 1rem 'Inter', sans-serif;
                 }
+                @media (max-width: 375px) {
+                    font: 400 .95rem 'Inter', sans-serif;
+                    white-space: nowrap;
+                }
             }
             .item_img_casino {
                 display: flex;
@@ -251,16 +255,31 @@
                     height: auto;
                     object-fit: contain;
                     margin-right: 15px;
+                    @media (max-width: 375px) {
+                        margin-right: 10px;
+                        max-width: 90px;
+                    }
+                    @media (max-width: 340px) {
+                        margin-right: 5px;
+                        max-width: 80px;
+                    }
                 }
                 .item_img_casino_info {
                     p {
                         color: #000;
                         margin-bottom: 5px;
                         font: 700 1.2rem 'Inter', sans-serif;
+                        @media (max-width: 375px) {
+                            font: 700 1rem 'Inter', sans-serif;
+                            margin: 0;
+                        }
                     }
                     a {
                         font: 400 1rem 'Inter', sans-serif;
                         color: #4482CD;
+                        @media (max-width: 375px) {
+                            font: 700 .9rem 'Inter', sans-serif;
+                        }
                     }
                 }
             }
@@ -278,6 +297,10 @@
                         margin-right: 7px;
                         color: #FFCF24;
                         font: 700 1.6rem 'Inter', sans-serif;
+                        @media (max-width: 375px) {
+                            font: 700 1.25rem 'Inter', sans-serif;
+                            margin-right: 5px;
+                        }
                     }
                 }
             }
@@ -291,6 +314,9 @@
                     font: 400 .95rem 'Inter', sans-serif;
                     color: #111111;
                     max-width: 140px;
+                    @media (max-width: 375px) {
+                        font: 400 .87rem 'Inter', sans-serif;
+                    }
                 }
             }
             .item_live_casino {
@@ -303,6 +329,9 @@
                     text-transform: uppercase;
                     font: 700 1.6rem 'Inter', sans-serif;
                     color: #111111;
+                    @media (max-width: 375px) {
+                        font: 700 1.25rem 'Inter', sans-serif;
+                    }
                 }
             }
             .item_btn_casino {
@@ -321,6 +350,9 @@
                     grid-template-columns: 1fr 1fr;
                     grid-gap: 10px;
                 }
+                @media (max-width: 340px) {
+                    grid-template-columns: 1fr;
+                }
                 .call_hide_item {
                     text-align: center;
                     text-transform: uppercase;
@@ -330,6 +362,10 @@
                     border-radius: 3px;
                     white-space: nowrap;
                     box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+                    @media (max-width: 375px) {
+                        padding: 8px 12px;
+                        font: 700 .95rem 'Inter', sans-serif;
+                    }
                     img {
                         position: relative;
                         left: 4px;
@@ -352,6 +388,11 @@
                     border-radius: 3px;
                     color: #fff;
                     white-space: nowrap;
+                    @media (max-width: 375px) {
+                        padding: 8px 12px;
+                        border: none;
+                        font: 700 .95rem 'Inter', sans-serif;
+                    }
                 }
             }
         }
