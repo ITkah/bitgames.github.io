@@ -1163,6 +1163,7 @@
         padding: 15px 0;
         cursor: pointer;
         display: flex;
+        user-select: none;
         align-items: center;
         justify-content: space-between;
         @media (max-width: 990px) {
@@ -1180,6 +1181,7 @@
     }
     .acc_body {
         display: none;
+        user-select: none;
         padding-bottom: 10px;
         p {
             font: 400 .95rem/22px 'Inter', sans-serif;

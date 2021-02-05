@@ -121,3 +121,39 @@ $(".blog_filter_call").on("click", function() {
     $(this).toggleClass("blog_filter_call_active")
     $(".blog_filter_wrap").slideToggle(200);
 });
+
+
+
+const swiper2 = new Swiper('.about_team_wrap', {
+    loop: false,
+    centerInsufficientSlides: false,
+    centeredSlides: false,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    grabCursor: true,
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 15
+        },
+        // when window width is >= 480px
+        576: {
+            slidesPerView: 2,
+            spaceBetween: 15
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 15
+        },
+        1100: {
+            slidesPerView: 3,
+            spaceBetween: 15
+        }
+    },
+    //If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});
