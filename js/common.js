@@ -203,3 +203,13 @@ $(".page_casino_navigation").on("click", "a", function(event) {
         top = $(id).offset().top - 50;
     $('body,html').animate({ scrollTop: top }, 1500);
 });
+
+$(".red").on("click", function() {
+    $(this).addClass("red_active");
+    $(".details_tabs").addClass("red_active_border");
+});
+
+$(".dis").on("click", function() {
+    $(".red").removeClass("red_active");
+    $(".details_tabs").removeClass("red_active_border");
+});

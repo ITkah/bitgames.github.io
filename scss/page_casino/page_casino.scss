@@ -496,6 +496,9 @@
             box-sizing: border-box;
             border-radius: 5px;
         }
+        .red_active_border {
+            border: 2px solid #FF4B55;
+        }
         .tabs__caption {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -527,6 +530,9 @@
                 opacity: 1;
                 color: #fff;
                 background: #55B56B;
+            }
+            .red_active {
+                background: #FF4B55;
             }
         }
         .tabs_detail_wrap {
