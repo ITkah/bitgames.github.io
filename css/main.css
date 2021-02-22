@@ -8264,6 +8264,1811 @@ header {
             .latest_news .latest_news_wrap .latest_sm_news .sm_news_box .sm_news_text {
               font: 400 .8rem/18px 'Inter', sans-serif; } }
 
+.game_post_wrap {
+  display: grid;
+  grid-template-columns: 1fr 275px;
+  grid-gap: 20px; }
+  @media (max-width: 990px) {
+    .game_post_wrap {
+      grid-template-columns: 1fr;
+      grid-gap: 0; } }
+  .game_post_wrap .blog_post_content {
+    padding: 15px 30px;
+    border-radius: 0 0 10px 10px;
+    background: #fff;
+    margin-bottom: 20px; }
+    @media (max-width: 990px) {
+      .game_post_wrap .blog_post_content {
+        padding: 20px 10px;
+        border-radius: 0; } }
+    .game_post_wrap .blog_post_content .post_content_wrap h1,
+    .game_post_wrap .blog_post_content .post_content_wrap h2,
+    .game_post_wrap .blog_post_content .post_content_wrap h3,
+    .game_post_wrap .blog_post_content .post_content_wrap h4,
+    .game_post_wrap .blog_post_content .post_content_wrap h5,
+    .game_post_wrap .blog_post_content .post_content_wrap h6 {
+      color: #000;
+      font: 700 1.25rem 'Inter', sans-serif;
+      margin-bottom: 10px; }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap h1,
+        .game_post_wrap .blog_post_content .post_content_wrap h2,
+        .game_post_wrap .blog_post_content .post_content_wrap h3,
+        .game_post_wrap .blog_post_content .post_content_wrap h4,
+        .game_post_wrap .blog_post_content .post_content_wrap h5,
+        .game_post_wrap .blog_post_content .post_content_wrap h6 {
+          font: 700 1.1rem 'Inter', sans-serif;
+          margin-bottom: 7px; } }
+    .game_post_wrap .blog_post_content .post_content_wrap p {
+      font: 400 .95rem/25px 'Inter', sans-serif;
+      margin-bottom: 10px; }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap p {
+          margin-bottom: 7px;
+          font: 400 .87rem/21px 'Inter', sans-serif; } }
+    .game_post_wrap .blog_post_content .post_content_wrap .short_info_post {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 5px; }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .short_info_post {
+          margin-bottom: 10px; } }
+      .game_post_wrap .blog_post_content .post_content_wrap .short_info_post .author {
+        margin: 0;
+        font: 400 .95rem 'Inter', sans-serif;
+        color: #898989;
+        margin-right: 5px; }
+        @media (max-width: 990px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .short_info_post .author {
+            font: 400 .87rem 'Inter', sans-serif; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .short_info_post .author span {
+          color: #626262;
+          text-decoration: underline; }
+      .game_post_wrap .blog_post_content .post_content_wrap .short_info_post .category {
+        margin: 0;
+        font: 400 .95rem 'Inter', sans-serif;
+        color: #626262;
+        margin-right: 5px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        @media (max-width: 990px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .short_info_post .category {
+            font: 400 .87rem 'Inter', sans-serif; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .short_info_post .category::before {
+          content: '';
+          height: 5px;
+          width: 5px;
+          border-radius: 50%;
+          background: #4482CD;
+          display: block;
+          margin-right: 4px;
+          position: relative;
+          left: -1px; }
+      .game_post_wrap .blog_post_content .post_content_wrap .short_info_post .data {
+        margin: 0;
+        font: 400 .95rem 'Inter', sans-serif;
+        color: #626262;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        @media (max-width: 990px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .short_info_post .data {
+            font: 400 .87rem 'Inter', sans-serif; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .short_info_post .data::before {
+          content: '';
+          height: 5px;
+          width: 5px;
+          border-radius: 50%;
+          background: #4482CD;
+          position: relative;
+          left: -1px;
+          display: block;
+          margin-right: 4px; }
+    .game_post_wrap .blog_post_content .post_content_wrap .post_title {
+      margin-bottom: 15px;
+      font: 600 2.25rem 'Inter', sans-serif; }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .post_title {
+          margin-bottom: 15px;
+          text-align: center;
+          font: 600 1.25rem 'Inter', sans-serif; } }
+    .game_post_wrap .blog_post_content .post_content_wrap .page_casino_navigation {
+      background: #F5F5F5;
+      border-radius: 5px;
+      padding: 0 20px;
+      margin-bottom: 20px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      @media (max-width: 1400px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .page_casino_navigation {
+          -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap; } }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .page_casino_navigation {
+          -webkit-flex-wrap: nowrap;
+              -ms-flex-wrap: nowrap;
+                  flex-wrap: nowrap;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: start;
+          -webkit-justify-content: flex-start;
+              -ms-flex-pack: start;
+                  justify-content: flex-start;
+          padding: 8px 5px;
+          margin-bottom: 15px;
+          overflow-y: scroll; } }
+      .game_post_wrap .blog_post_content .post_content_wrap .page_casino_navigation a {
+        white-space: nowrap;
+        padding: 12px;
+        text-align: center;
+        display: block;
+        color: #000;
+        text-transform: capitalize;
+        font: 400 1rem 'Inter', sans-serif;
+        -webkit-transition: .2s;
+        -o-transition: .2s;
+        transition: .2s; }
+        @media (max-width: 990px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .page_casino_navigation a {
+            min-width: 110px;
+            padding: 10px; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .page_casino_navigation a:hover {
+          background: #4482CD;
+          color: #fff; }
+    .game_post_wrap .blog_post_content .post_content_wrap .page_info_box {
+      display: grid;
+      grid-gap: 20px;
+      margin-bottom: 20px;
+      grid-template-columns: 2fr 1fr; }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .page_info_box {
+          grid-template-columns: 1fr;
+          grid-gap: 0;
+          margin-bottom: 15px; } }
+      .game_post_wrap .blog_post_content .post_content_wrap .page_info_box img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; }
+    .game_post_wrap .blog_post_content .post_content_wrap .post_img {
+      max-width: 80%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      margin: 25px auto;
+      display: block;
+      border-radius: 5px; }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .post_img {
+          max-width: 100%;
+          margin: 15px auto;
+          max-height: 175px; } }
+    .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap {
+      margin: 60px 0 40px 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding: 20px;
+      background: #42456B;
+      border-radius: 10px;
+      position: relative; }
+      @media (max-width: 576px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap {
+          margin: 20px 0; } }
+      .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_info_box {
+        z-index: 9;
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+            -ms-flex-align: end;
+                align-items: flex-end; }
+        @media (max-width: 768px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_info_box {
+            -webkit-box-align: start;
+            -webkit-align-items: flex-start;
+                -ms-flex-align: start;
+                    align-items: flex-start; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_info_box .game_title {
+          color: #fff;
+          margin-bottom: 10px;
+          font: 700 1.875rem 'Inter', sans-serif; }
+          @media (max-width: 990px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_info_box .game_title {
+              font: 700 1.2rem 'Inter', sans-serif; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_info_box .game_text {
+          color: #fff;
+          font: 400 .95rem/21px 'Inter', sans-serif;
+          text-align: right; }
+          @media (max-width: 990px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_info_box .game_text {
+              margin-bottom: 10px;
+              font: 400 .87rem/20px 'Inter', sans-serif; } }
+          @media (max-width: 768px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_info_box .game_text {
+              text-align: left; } }
+          @media (max-width: 576px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_info_box .game_text {
+              max-width: 240px; } }
+          @media (max-width: 576px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_info_box .game_text br {
+              display: none; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_info_box .game_btn {
+          font: 700 1.125rem 'Inter', sans-serif;
+          text-align: center;
+          padding: 10px 40px;
+          display: inline-block;
+          color: #fff;
+          text-transform: uppercase;
+          background: #6CDA75;
+          border-radius: 3px; }
+          @media (max-width: 990px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_info_box .game_btn {
+              padding: 10px 20px;
+              font: 700 1rem 'Inter', sans-serif; } }
+      .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_img_box {
+        height: 110px;
+        z-index: 9;
+        position: relative; }
+        @media (max-width: 768px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_img_box {
+            height: auto;
+            position: absolute;
+            right: -15px;
+            bottom: 5px; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_img_box img {
+          top: -90px;
+          left: 0;
+          position: absolute; }
+          @media (max-width: 1100px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_img_box img {
+              left: -30px; } }
+          @media (max-width: 768px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .game_bonus_wrap .game_img_box img {
+              right: auto;
+              top: auto;
+              position: relative;
+              max-width: 129px;
+              max-height: 117px; } }
+    .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap {
+      margin-bottom: 15px; }
+      .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap .table_title {
+        margin-bottom: 10px;
+        font: 700 1.2rem 'Inter', sans-serif;
+        color: #000; }
+        @media (max-width: 990px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap .table_title {
+            text-align: center;
+            font: 700 1.125rem 'Inter', sans-serif; } }
+      .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-collapse: collapse;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        table-layout: fixed; }
+      .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap .center {
+        text-align: center; }
+        @media (max-width: 990px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap .center {
+            text-align: right; } }
+      .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap thead tr {
+        background: #42456B; }
+      .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap thead tr th {
+        color: #fff; }
+      .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table tr {
+        padding: .35em; }
+      .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap thead th {
+        color: #000;
+        font: 400 1rem 'Inter', sans-serif;
+        padding: 10px; }
+      .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table th,
+      .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table td {
+        padding: 10px;
+        text-align: left;
+        color: #000;
+        font: 400 1rem 'Inter', sans-serif;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        border-right: 1px solid rgba(0, 0, 0, 0.2); }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table {
+          padding: 0; }
+        .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table th,
+        .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table td {
+          border-right: none; }
+        .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table {
+          border: 0; }
+        .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table caption {
+          font-size: 1.3em; }
+        .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table thead {
+          display: none; }
+        .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table tr {
+          border-right: none;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          display: block;
+          margin-bottom: 10px;
+          padding: 0;
+          background: transparent; }
+        .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table tr:last-child {
+          margin: 0; }
+        .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table td {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+          display: block;
+          font-size: .87rem;
+          text-align: right; }
+        .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table td:before {
+          content: attr(aria-label);
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase; }
+        .game_post_wrap .blog_post_content .post_content_wrap .payment_table_wrap table td:last-child {
+          border-bottom: none; } }
+    .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 10px; }
+      @media (max-width: 1100px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_wrap {
+          grid-template-columns: 1fr 1fr; } }
+      @media (max-width: 576px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_wrap {
+          grid-template-columns: 1fr 1fr; } }
+    .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_box {
+      background: #FFF;
+      -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+              box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      padding: 0; }
+      .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_box .generate_casino_img {
+        background: transparent;
+        border-radius: 5px 5px 0 0;
+        padding: 0;
+        display: block;
+        margin-bottom: 0;
+        height: 100px;
+        overflow: hidden;
+        width: 100%; }
+        .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_box .generate_casino_img img {
+          -o-object-fit: cover;
+             object-fit: cover;
+          max-width: 100%;
+          height: auto;
+          width: 100%; }
+      .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_box .generate_casino_box_info {
+        padding: 10px 15px; }
+      .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_box .generate_casino_title {
+        font: 400 .95rem 'Inter', sans-serif;
+        margin-bottom: 5px;
+        text-align: center; }
+      .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_box .generate_casino_price {
+        color: #6CDA75;
+        text-align: center;
+        margin-bottom: 7px;
+        font: 700 1.2rem 'Inter', sans-serif; }
+      .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_box .generate_casino_info {
+        color: #000;
+        opacity: .5;
+        cursor: pointer;
+        text-align: center;
+        font: 400 .75rem 'Inter', sans-serif;
+        text-align: center;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_box .generate_casino_info:hover {
+          color: #0185FF; }
+      .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_box .generate_casino_btn {
+        text-transform: uppercase;
+        background: #6CDA75;
+        border-radius: 3px;
+        padding: 10px;
+        width: 100%;
+        display: block;
+        color: #fff;
+        font: 700 1rem "Inter", sans-serif;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        text-align: center;
+        margin-bottom: 5px;
+        -webkit-transition: .2s;
+        -o-transition: .2s;
+        transition: .2s; }
+        .game_post_wrap .blog_post_content .post_content_wrap .generate_casino_box .generate_casino_btn:hover {
+          background: #50b658; }
+    .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap {
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 15px;
+      -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+              box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap {
+          border-radius: 0; } }
+      .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_wrap_title {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background: #42456B;
+        padding: 0 20px; }
+        @media (max-width: 1200px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_wrap_title {
+            display: none; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_wrap_title p {
+          color: #FFF;
+          margin: 0;
+          padding: 10px 0;
+          opacity: .5;
+          font: 400 1.125rem 'Inter', sans-serif; }
+      .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container {
+        background: #fff;
+        padding: 15px 20px; }
+        @media (max-width: 1200px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container {
+            background: transparent;
+            padding: 0; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .raiting_item_box {
+          display: grid;
+          grid-template-columns: 1fr; }
+          @media (max-width: 1200px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .raiting_item_box {
+              border: none;
+              border-radius: 5px;
+              background: #fff;
+              padding: 15px;
+              margin-bottom: 10px; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap {
+          display: grid;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          grid-template-columns: 1fr 1fr 1fr;
+          margin-bottom: 10px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+          @media (max-width: 1200px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap {
+              grid-template-columns: 1fr 1fr 1fr;
+              grid-gap: 15px;
+              border: none;
+              margin: 0;
+              padding: 0; } }
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .hide_title {
+            display: none; }
+            @media (max-width: 1200px) {
+              .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .hide_title {
+                display: block;
+                color: #000;
+                margin-bottom: 5px;
+                opacity: .5;
+                font: 400 1rem 'Inter', sans-serif; } }
+            @media (max-width: 375px) {
+              .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .hide_title {
+                font: 400 .95rem 'Inter', sans-serif;
+                white-space: nowrap; } }
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center; }
+            @media (max-width: 1200px) {
+              .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino {
+                grid-column-start: 1;
+                grid-column-end: 3; } }
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino img {
+              max-width: 100%;
+              height: auto;
+              -o-object-fit: contain;
+                 object-fit: contain;
+              margin-right: 15px; }
+              @media (max-width: 375px) {
+                .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino img {
+                  margin-right: 10px;
+                  max-width: 90px; } }
+              @media (max-width: 340px) {
+                .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino img {
+                  margin-right: 5px;
+                  max-width: 80px; } }
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino .item_img_casino_info p {
+              color: #000;
+              margin-bottom: 5px;
+              font: 700 1.2rem 'Inter', sans-serif; }
+              @media (max-width: 375px) {
+                .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino .item_img_casino_info p {
+                  font: 700 1rem 'Inter', sans-serif;
+                  margin: 0; } }
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino .item_img_casino_info a {
+              font: 400 1rem 'Inter', sans-serif;
+              color: #4482CD; }
+              @media (max-width: 375px) {
+                .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino .item_img_casino_info a {
+                  font: 700 .9rem 'Inter', sans-serif; } }
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_bonus_casino {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center; }
+            @media (max-width: 1200px) {
+              .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_bonus_casino {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: column;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-align: start;
+                -webkit-align-items: flex-start;
+                    -ms-flex-align: start;
+                        align-items: flex-start; } }
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_bonus_casino .item_bonus_casino_sm {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              position: relative;
+              left: 10px; }
+              @media (max-width: 1280px) {
+                .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_bonus_casino .item_bonus_casino_sm {
+                  left: 0; } }
+              @media (max-width: 990px) {
+                .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_bonus_casino .item_bonus_casino_sm {
+                  left: 0; } }
+              .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_bonus_casino .item_bonus_casino_sm p {
+                margin: 0;
+                margin-right: 7px;
+                color: #FFCF24;
+                font: 700 1.6rem 'Inter', sans-serif; }
+                @media (max-width: 375px) {
+                  .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_bonus_casino .item_bonus_casino_sm p {
+                    font: 700 1.25rem 'Inter', sans-serif;
+                    margin-right: 5px; } }
+          @media (max-width: 1200px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_features_casino {
+              grid-column-start: 1;
+              grid-column-end: 3;
+              grid-row-start: 2; } }
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_features_casino p {
+            font: 400 .95rem 'Inter', sans-serif;
+            color: #111111;
+            max-width: 140px; }
+            @media (max-width: 375px) {
+              .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_features_casino p {
+                font: 400 .87rem 'Inter', sans-serif; } }
+          @media (max-width: 1200px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_live_casino {
+              grid-column-start: 3;
+              grid-column-end: 4;
+              grid-row-start: 1; } }
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_live_casino .item_live_casino_text {
+            text-transform: uppercase;
+            font: 700 1.6rem 'Inter', sans-serif;
+            color: #111111; }
+            @media (max-width: 375px) {
+              .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_live_casino .item_live_casino_text {
+                font: 700 1.25rem 'Inter', sans-serif; } }
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_btn_casino {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px; }
+            @media (max-width: 1200px) {
+              .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_btn_casino {
+                grid-column-start: 1;
+                grid-column-end: 4;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                    -ms-flex-pack: center;
+                        justify-content: center; } }
+            @media (max-width: 576px) {
+              .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_btn_casino {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 10px; } }
+            @media (max-width: 340px) {
+              .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_btn_casino {
+                grid-template-columns: 1fr; } }
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_btn_casino .call_hide_item {
+              text-align: center;
+              text-transform: uppercase;
+              font: 700 1rem 'Inter', sans-serif;
+              padding: 10px 20px;
+              color: #4F4F4F;
+              border-radius: 3px;
+              white-space: nowrap;
+              -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); }
+              @media (max-width: 375px) {
+                .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_btn_casino .call_hide_item {
+                  padding: 8px 12px;
+                  font: 700 .95rem 'Inter', sans-serif; } }
+              .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_btn_casino .call_hide_item img {
+                position: relative;
+                left: 4px;
+                max-width: 100%;
+                height: auto;
+                top: 1px; }
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_btn_casino .active_link img {
+              -webkit-transform: rotate(180deg);
+                  -ms-transform: rotate(180deg);
+                      transform: rotate(180deg); }
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_btn_casino .link_item {
+              text-align: center;
+              text-transform: uppercase;
+              font: 700 1rem 'Inter', sans-serif;
+              padding: 10px 20px;
+              background: #6CDA75;
+              border-radius: 3px;
+              color: #fff;
+              white-space: nowrap; }
+              @media (max-width: 375px) {
+                .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_btn_casino .link_item {
+                  padding: 8px 12px;
+                  border: none;
+                  font: 700 .95rem 'Inter', sans-serif; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .raiting_item_box:last-child .item_short_wrap {
+          border: none;
+          margin: 0;
+          padding-bottom: 0; }
+      .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .item_hide_wrap {
+        margin-top: 10px;
+        display: none;
+        margin-bottom: 20px; }
+        @media (max-width: 1200px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .item_hide_wrap {
+            margin-bottom: 0; } }
+      .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_btn_wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_btn_wrap .hide_btn {
+          padding: 10px 20px;
+          border: 2px solid #4482CD;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          border-radius: 3px;
+          color: #4482CD;
+          text-align: center;
+          margin: 0 auto;
+          font: 700 1.125rem 'Inter', sans-serif; }
+      .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 40px;
+        margin-bottom: 10px; }
+        @media (max-width: 1200px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container {
+            grid-template-columns: 1fr;
+            margin-top: 10px;
+            grid-gap: 10px; } }
+        .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .item_hide_title {
+          margin-bottom: 10px;
+          font: 700 1.125rem 'Inter', sans-serif; }
+        .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .item_hide_text {
+          font: 400 .95rem/22px 'Inter', sans-serif; }
+        .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .item_hide_list {
+          padding: 0 20px;
+          border-left: 1px solid rgba(0, 0, 0, 0.2);
+          border-right: 1px solid rgba(0, 0, 0, 0.2); }
+          @media (max-width: 1200px) {
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .item_hide_list {
+              border: none;
+              padding: 15px 0;
+              border-top: 1px solid rgba(0, 0, 0, 0.2);
+              border-bottom: 1px solid rgba(0, 0, 0, 0.2); } }
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .item_hide_list ul {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 12px; }
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .item_hide_list ul li {
+              padding-left: 30px;
+              position: relative;
+              font: 400 .95rem 'Inter', sans-serif; }
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .item_hide_list ul .minus::before {
+              content: '+';
+              height: 21px;
+              width: 21px;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              color: #fff;
+              position: absolute;
+              left: 0;
+              background: #FF4B55;
+              top: -2px;
+              border-radius: 50%;
+              font: 700 1rem 'Inter', sans-serif; }
+            .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .item_hide_list ul .plus::before {
+              content: '-';
+              height: 21px;
+              width: 21px;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              border-radius: 50%;
+              background: #6CDA75;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              color: #fff;
+              position: absolute;
+              left: 0;
+              top: -2px;
+              font: 700 1rem 'Inter', sans-serif; }
+        .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .quick_box {
+          display: grid;
+          grid-gap: 10px;
+          grid-template-columns: 140px 1fr;
+          margin-bottom: 12px;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .quick_box .quick_title {
+            font: 400 .95rem 'Inter', sans-serif;
+            color: rgba(0, 0, 0, 0.3); }
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .quick_box .quick_item {
+            font: 400 .95rem 'Inter', sans-serif; }
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .quick_box a {
+            color: #4482CD; }
+          .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .hide_container .quick_box .sup {
+            -o-text-overflow: ellipsis;
+               text-overflow: ellipsis;
+            width: 160px;
+            overflow: hidden;
+            color: #000;
+            text-decoration: underline; }
+    .game_post_wrap .blog_post_content .post_content_wrap ul {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 15px;
+      margin-bottom: 10px; }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap ul {
+          margin-bottom: 7px;
+          grid-gap: 7px; } }
+      .game_post_wrap .blog_post_content .post_content_wrap ul li {
+        position: relative;
+        font: 400 .95rem 'Inter', sans-serif;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center; }
+        @media (max-width: 990px) {
+          .game_post_wrap .blog_post_content .post_content_wrap ul li {
+            font: 400 .87rem 'Inter', sans-serif; } }
+        .game_post_wrap .blog_post_content .post_content_wrap ul li::before {
+          content: url(../img/blog_post/check.svg);
+          margin-right: 10px;
+          position: relative;
+          top: -1px; }
+    .game_post_wrap .blog_post_content .post_content_wrap .yellow_block {
+      margin-left: 30px;
+      margin-bottom: 10px;
+      padding: 5px 10px;
+      border-left: 4px solid #FFCF24; }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .yellow_block {
+          margin-bottom: 7px;
+          margin-left: 0; } }
+      .game_post_wrap .blog_post_content .post_content_wrap .yellow_block p {
+        font: 400 .95rem/22px 'Inter', sans-serif;
+        margin: 0; }
+        @media (max-width: 990px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .yellow_block p {
+            font: 400 .87rem/21px 'Inter', sans-serif; } }
+    .game_post_wrap .blog_post_content .post_content_wrap .green_block {
+      margin-left: 30px;
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      border-left: 4px solid #6CDA75;
+      background: rgba(85, 181, 107, 0.1); }
+      @media (max-width: 990px) {
+        .game_post_wrap .blog_post_content .post_content_wrap .green_block {
+          padding: 8px 14px;
+          margin-bottom: 7px;
+          margin-left: 0; } }
+      .game_post_wrap .blog_post_content .post_content_wrap .green_block p {
+        font: 400 .95rem/22px 'Inter', sans-serif;
+        margin: 0; }
+        @media (max-width: 990px) {
+          .game_post_wrap .blog_post_content .post_content_wrap .green_block p {
+            font: 400 .87rem/21px 'Inter', sans-serif; } }
+
+@media (max-width: 576px) {
+  .game_post_wrap .blog_post_output {
+    overflow: auto; } }
+
+.game_post_wrap .blog_post_output .author_post_wrap {
+  padding: 20px 25px;
+  background: #FFF;
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-gap: 20px;
+  position: relative; }
+  @media (max-width: 990px) {
+    .game_post_wrap .blog_post_output .author_post_wrap {
+      grid-template-columns: 55px 1fr;
+      padding: 15px;
+      grid-gap: 10px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+  @media (max-width: 576px) {
+    .game_post_wrap .blog_post_output .author_post_wrap {
+      margin: 0 10px;
+      margin-bottom: 20px; } }
+  .game_post_wrap .blog_post_output .author_post_wrap img {
+    border-radius: 50%;
+    max-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+    @media (max-width: 990px) {
+      .game_post_wrap .blog_post_output .author_post_wrap img {
+        max-width: 55px;
+        max-height: 55px; } }
+  .game_post_wrap .blog_post_output .author_post_wrap .author_post_info .pretitle {
+    margin-bottom: 5px;
+    font: 400 .95rem 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .game_post_wrap .blog_post_output .author_post_wrap .author_post_info .pretitle {
+        margin: 0; } }
+  .game_post_wrap .blog_post_output .author_post_wrap .author_post_info .name {
+    margin-bottom: 5px;
+    font: 700 1.5rem 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .game_post_wrap .blog_post_output .author_post_wrap .author_post_info .name {
+        margin: 0;
+        font: 700 1.25rem 'Inter', sans-serif; } }
+  .game_post_wrap .blog_post_output .author_post_wrap .author_post_info .description {
+    font: 400 .87rem/20px 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .game_post_wrap .blog_post_output .author_post_wrap .author_post_info .description {
+        display: none; } }
+  .game_post_wrap .blog_post_output .author_post_wrap .mob_elem {
+    display: none;
+    font: 400 .87rem/20px 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .game_post_wrap .blog_post_output .author_post_wrap .mob_elem {
+        display: block;
+        grid-column-start: 1;
+        grid-column-end: 3; } }
+
+.game_post_wrap .blog_post_output .blog_output_title {
+  margin: 0;
+  font: 700 2rem 'Inter', sans-serif;
+  margin-bottom: 15px;
+  text-align: center; }
+  @media (max-width: 990px) {
+    .game_post_wrap .blog_post_output .blog_output_title {
+      font: 700 1.56rem 'Inter', sans-serif; } }
+
+.game_post_wrap .blog_post_output .blog_output_wrap {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+  @media (max-width: 576px) {
+    .game_post_wrap .blog_post_output .blog_output_wrap {
+      margin: 0 10px;
+      margin-bottom: 20px;
+      padding: 0 5px;
+      overflow-y: scroll;
+      padding-bottom: 10px;
+      grid-template-columns: 180px 180px 180px; } }
+
+.game_post_wrap .blog_post_output .blog_btn_more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px; }
+  @media (max-width: 990px) {
+    .game_post_wrap .blog_post_output .blog_btn_more {
+      margin-bottom: 20px; } }
+  .game_post_wrap .blog_post_output .blog_btn_more a {
+    font: 400 1rem 'Inter', sans-serif;
+    color: #4482CD;
+    border-radius: 3px;
+    background: #ECF1FF;
+    padding: 15px 25px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+.game_post_wrap .blog_post_output .blog_recomended_casino {
+  margin-bottom: 25px; }
+  @media (max-width: 576px) {
+    .game_post_wrap .blog_post_output .blog_recomended_casino {
+      margin: 0 10px; } }
+  .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_get {
+    font: 400 .95rem 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 5px; }
+  .game_post_wrap .blog_post_output .blog_recomended_casino .item_bonus_casino_sm {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 5px; }
+    .game_post_wrap .blog_post_output .blog_recomended_casino .item_bonus_casino_sm p {
+      color: #FFCF24;
+      font: 700 1.6rem 'Inter', sans-serif;
+      margin-right: 10px; }
+  .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_in {
+    font: 400 .95rem 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 5px; }
+  .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_title {
+    font: 700 1.5rem 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 5px; }
+    .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_title span {
+      font-weight: 400; }
+    @media (max-width: 990px) {
+      .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_title {
+        font: 700 1.25rem 'Inter', sans-serif; } }
+  .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_text {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font: 400 .95rem/22px 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_text {
+        font: 400 .87rem/20px 'Inter', sans-serif; } }
+  .game_post_wrap .blog_post_output .blog_recomended_casino .tabs__caption {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px; }
+    @media (max-width: 768px) {
+      .game_post_wrap .blog_post_output .blog_recomended_casino .tabs__caption {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        margin-bottom: 15px; } }
+    .game_post_wrap .blog_post_output .blog_recomended_casino .tabs__caption li {
+      color: #000000;
+      opacity: .7;
+      font: 400 1.2rem 'Inter', sans-serif;
+      padding: 8px 12px;
+      cursor: pointer;
+      text-align: center;
+      margin: 0 15px; }
+      @media (max-width: 768px) {
+        .game_post_wrap .blog_post_output .blog_recomended_casino .tabs__caption li {
+          margin: 0;
+          font: 400 1rem 'Inter', sans-serif; } }
+    .game_post_wrap .blog_post_output .blog_recomended_casino .tabs__caption .active {
+      color: #4482CD;
+      background: #ECF1FF;
+      border-radius: 3px; }
+  .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px; }
+    @media (max-width: 990px) {
+      .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_wrap {
+        margin-bottom: 20px; } }
+    @media (max-width: 576px) {
+      .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_wrap {
+        grid-template-columns: 1fr; } }
+  .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_box {
+    background: #FFF;
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 0; }
+    .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_box .generate_casino_img {
+      background: transparent;
+      border-radius: 0;
+      padding: 0;
+      display: block;
+      border-radius: 10px 10px 0 0;
+      margin-bottom: 0;
+      height: 100px;
+      overflow: hidden;
+      width: 100%; }
+      .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_box .generate_casino_img img {
+        -o-object-fit: cover;
+           object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        width: 100%; }
+    .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_box .generate_casino_box_info {
+      padding: 10px 15px; }
+    .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_box .generate_casino_title {
+      font: 400 .95rem 'Inter', sans-serif;
+      margin-bottom: 5px; }
+    .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_box .generate_casino_price {
+      color: #6CDA75;
+      text-align: center;
+      margin-bottom: 7px;
+      font: 700 1.2rem 'Inter', sans-serif; }
+    .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_box .generate_casino_info {
+      color: #000;
+      opacity: .5;
+      cursor: pointer;
+      text-align: center;
+      font: 400 .75rem 'Inter', sans-serif;
+      text-align: center;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_box .generate_casino_info:hover {
+        color: #0185FF; }
+    .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_box .generate_casino_btn {
+      text-transform: uppercase;
+      background: #6CDA75;
+      border-radius: 3px;
+      padding: 10px;
+      width: 100%;
+      display: block;
+      color: #fff;
+      font: 700 1rem "Inter", sans-serif;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      text-align: center;
+      margin-bottom: 5px;
+      -webkit-transition: .2s;
+      -o-transition: .2s;
+      transition: .2s; }
+      .game_post_wrap .blog_post_output .blog_recomended_casino .generate_casino_box .generate_casino_btn:hover {
+        background: #50b658; }
+
+.game_recomended {
+  margin-bottom: 25px; }
+  @media (max-width: 576px) {
+    .game_recomended {
+      margin: 0 10px; } }
+  .game_recomended .generate_casino_get {
+    font: 400 .95rem 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 5px; }
+  .game_recomended .item_bonus_casino_sm {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 5px; }
+    .game_recomended .item_bonus_casino_sm p {
+      color: #FFCF24;
+      font: 700 1.6rem 'Inter', sans-serif;
+      margin-right: 10px; }
+  .game_recomended .generate_casino_in {
+    font: 400 .95rem 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 5px; }
+  .game_recomended .generate_casino_title {
+    font: 700 1.5rem 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 5px; }
+    .game_recomended .generate_casino_title span {
+      font-weight: 400; }
+    @media (max-width: 990px) {
+      .game_recomended .generate_casino_title {
+        font: 700 1.25rem 'Inter', sans-serif; } }
+  .game_recomended .generate_casino_text {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font: 400 .95rem/22px 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .game_recomended .generate_casino_text {
+        font: 400 .87rem/20px 'Inter', sans-serif; } }
+  .game_recomended .tabs__caption {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px; }
+    @media (max-width: 768px) {
+      .game_recomended .tabs__caption {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        margin-bottom: 15px; } }
+    .game_recomended .tabs__caption li {
+      color: #000000;
+      opacity: .7;
+      font: 400 1.2rem 'Inter', sans-serif;
+      padding: 8px 12px;
+      cursor: pointer;
+      text-align: center;
+      margin: 0 15px; }
+      @media (max-width: 768px) {
+        .game_recomended .tabs__caption li {
+          margin: 0;
+          font: 400 1rem 'Inter', sans-serif; } }
+    .game_recomended .tabs__caption .active {
+      color: #4482CD;
+      background: #ECF1FF;
+      border-radius: 3px; }
+  .game_recomended .generate_casino_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px; }
+    @media (max-width: 990px) {
+      .game_recomended .generate_casino_wrap {
+        margin-bottom: 20px; } }
+    @media (max-width: 576px) {
+      .game_recomended .generate_casino_wrap {
+        grid-template-columns: 1fr; } }
+  .game_recomended .generate_casino_box {
+    background: #FFF;
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 0; }
+    .game_recomended .generate_casino_box .generate_casino_img {
+      background: transparent;
+      border-radius: 0;
+      padding: 0;
+      display: block;
+      border-radius: 10px 10px 0 0;
+      margin-bottom: 0;
+      height: 100px;
+      overflow: hidden;
+      width: 100%; }
+      .game_recomended .generate_casino_box .generate_casino_img img {
+        -o-object-fit: cover;
+           object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        width: 100%; }
+    .game_recomended .generate_casino_box .generate_casino_box_info {
+      padding: 10px 15px; }
+    .game_recomended .generate_casino_box .generate_casino_title {
+      font: 400 .95rem 'Inter', sans-serif;
+      margin-bottom: 5px; }
+    .game_recomended .generate_casino_box .generate_casino_price {
+      color: #6CDA75;
+      text-align: center;
+      margin-bottom: 7px;
+      font: 700 1.2rem 'Inter', sans-serif; }
+    .game_recomended .generate_casino_box .generate_casino_info {
+      color: #000;
+      opacity: .5;
+      cursor: pointer;
+      text-align: center;
+      font: 400 .75rem 'Inter', sans-serif;
+      text-align: center;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .game_recomended .generate_casino_box .generate_casino_info:hover {
+        color: #0185FF; }
+    .game_recomended .generate_casino_box .generate_casino_btn {
+      text-transform: uppercase;
+      background: #6CDA75;
+      border-radius: 3px;
+      padding: 10px;
+      width: 100%;
+      display: block;
+      color: #fff;
+      font: 700 1rem "Inter", sans-serif;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      text-align: center;
+      margin-bottom: 5px;
+      -webkit-transition: .2s;
+      -o-transition: .2s;
+      transition: .2s; }
+      .game_recomended .generate_casino_box .generate_casino_btn:hover {
+        background: #50b658; }
+
+.recomended_game {
+  margin-bottom: 40px; }
+  .recomended_game .raiting_wrap {
+    border-radius: 10px;
+    overflow: hidden; }
+    @media (max-width: 990px) {
+      .recomended_game .raiting_wrap {
+        border-radius: 0; } }
+  .recomended_game .raiting_wrap_title {
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr 2fr 3fr;
+    background: #42456B;
+    padding: 0 20px; }
+    @media (max-width: 1200px) {
+      .recomended_game .raiting_wrap_title {
+        display: none; } }
+    .recomended_game .raiting_wrap_title p {
+      color: #FFF;
+      padding: 10px 0;
+      opacity: .5;
+      font: 400 1.125rem 'Inter', sans-serif; }
+  .recomended_game .raiting_container {
+    background: #fff;
+    padding: 15px 20px; }
+    @media (max-width: 1200px) {
+      .recomended_game .raiting_container {
+        background: transparent;
+        padding: 0; } }
+    .recomended_game .raiting_container .raiting_item_box {
+      display: grid;
+      grid-template-columns: 1fr; }
+      @media (max-width: 1200px) {
+        .recomended_game .raiting_container .raiting_item_box {
+          border: none;
+          border-radius: 5px;
+          background: #fff;
+          padding: 15px;
+          margin-bottom: 10px; } }
+    .recomended_game .raiting_container .item_short_wrap {
+      display: grid;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      grid-template-columns: 3fr 1fr 2fr 2fr 3fr;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+      @media (max-width: 1200px) {
+        .recomended_game .raiting_container .item_short_wrap {
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 15px;
+          border: none;
+          margin: 0;
+          padding: 0; } }
+      .recomended_game .raiting_container .item_short_wrap .hide_title {
+        display: none; }
+        @media (max-width: 1200px) {
+          .recomended_game .raiting_container .item_short_wrap .hide_title {
+            display: block;
+            color: #000;
+            margin-bottom: 5px;
+            opacity: .5;
+            font: 400 1rem 'Inter', sans-serif; } }
+        @media (max-width: 375px) {
+          .recomended_game .raiting_container .item_short_wrap .hide_title {
+            font: 400 .95rem 'Inter', sans-serif;
+            white-space: nowrap; } }
+      .recomended_game .raiting_container .item_short_wrap .item_img_casino {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        @media (max-width: 1200px) {
+          .recomended_game .raiting_container .item_short_wrap .item_img_casino {
+            grid-column-start: 1;
+            grid-column-end: 3; } }
+        .recomended_game .raiting_container .item_short_wrap .item_img_casino img {
+          max-width: 100%;
+          height: auto;
+          -o-object-fit: contain;
+             object-fit: contain;
+          margin-right: 15px; }
+          @media (max-width: 375px) {
+            .recomended_game .raiting_container .item_short_wrap .item_img_casino img {
+              margin-right: 10px;
+              max-width: 90px; } }
+          @media (max-width: 340px) {
+            .recomended_game .raiting_container .item_short_wrap .item_img_casino img {
+              margin-right: 5px;
+              max-width: 80px; } }
+        .recomended_game .raiting_container .item_short_wrap .item_img_casino .item_img_casino_info p {
+          color: #000;
+          margin-bottom: 5px;
+          font: 700 1.2rem 'Inter', sans-serif; }
+          @media (max-width: 375px) {
+            .recomended_game .raiting_container .item_short_wrap .item_img_casino .item_img_casino_info p {
+              font: 700 1rem 'Inter', sans-serif;
+              margin: 0; } }
+        .recomended_game .raiting_container .item_short_wrap .item_img_casino .item_img_casino_info a {
+          font: 400 1rem 'Inter', sans-serif;
+          color: #4482CD; }
+          @media (max-width: 375px) {
+            .recomended_game .raiting_container .item_short_wrap .item_img_casino .item_img_casino_info a {
+              font: 700 .9rem 'Inter', sans-serif; } }
+      .recomended_game .raiting_container .item_short_wrap .item_bonus_casino {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        @media (max-width: 1200px) {
+          .recomended_game .raiting_container .item_short_wrap .item_bonus_casino {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: start;
+            -webkit-align-items: flex-start;
+                -ms-flex-align: start;
+                    align-items: flex-start; } }
+        .recomended_game .raiting_container .item_short_wrap .item_bonus_casino .item_bonus_casino_sm {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          .recomended_game .raiting_container .item_short_wrap .item_bonus_casino .item_bonus_casino_sm p {
+            margin-right: 7px;
+            color: #FFCF24;
+            font: 700 1.6rem 'Inter', sans-serif; }
+            @media (max-width: 375px) {
+              .recomended_game .raiting_container .item_short_wrap .item_bonus_casino .item_bonus_casino_sm p {
+                font: 700 1.25rem 'Inter', sans-serif;
+                margin-right: 5px; } }
+      @media (max-width: 1200px) {
+        .recomended_game .raiting_container .item_short_wrap .item_features_casino {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 2; } }
+      .recomended_game .raiting_container .item_short_wrap .item_features_casino p {
+        font: 400 .95rem 'Inter', sans-serif;
+        color: #111111;
+        max-width: 140px; }
+        @media (max-width: 375px) {
+          .recomended_game .raiting_container .item_short_wrap .item_features_casino p {
+            font: 400 .87rem 'Inter', sans-serif; } }
+      @media (max-width: 1200px) {
+        .recomended_game .raiting_container .item_short_wrap .item_live_casino {
+          grid-column-start: 3;
+          grid-column-end: 4;
+          grid-row-start: 1; } }
+      .recomended_game .raiting_container .item_short_wrap .item_live_casino .item_live_casino_text {
+        text-transform: uppercase;
+        font: 700 1.6rem 'Inter', sans-serif;
+        color: #111111; }
+        @media (max-width: 375px) {
+          .recomended_game .raiting_container .item_short_wrap .item_live_casino .item_live_casino_text {
+            font: 700 1.25rem 'Inter', sans-serif; } }
+      .recomended_game .raiting_container .item_short_wrap .item_btn_casino {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px; }
+        @media (max-width: 1200px) {
+          .recomended_game .raiting_container .item_short_wrap .item_btn_casino {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center; } }
+        @media (max-width: 576px) {
+          .recomended_game .raiting_container .item_short_wrap .item_btn_casino {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px; } }
+        @media (max-width: 340px) {
+          .recomended_game .raiting_container .item_short_wrap .item_btn_casino {
+            grid-template-columns: 1fr; } }
+        .recomended_game .raiting_container .item_short_wrap .item_btn_casino .call_hide_item {
+          text-align: center;
+          text-transform: uppercase;
+          font: 700 1rem 'Inter', sans-serif;
+          padding: 10px 20px;
+          color: #4F4F4F;
+          border-radius: 3px;
+          white-space: nowrap;
+          -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); }
+          @media (max-width: 375px) {
+            .recomended_game .raiting_container .item_short_wrap .item_btn_casino .call_hide_item {
+              padding: 8px 12px;
+              font: 700 .95rem 'Inter', sans-serif; } }
+          .recomended_game .raiting_container .item_short_wrap .item_btn_casino .call_hide_item img {
+            position: relative;
+            left: 4px;
+            max-width: 100%;
+            height: auto;
+            top: 1px; }
+        .recomended_game .raiting_container .item_short_wrap .item_btn_casino .active_link img {
+          -webkit-transform: rotate(180deg);
+              -ms-transform: rotate(180deg);
+                  transform: rotate(180deg); }
+        .recomended_game .raiting_container .item_short_wrap .item_btn_casino .link_item {
+          text-align: center;
+          text-transform: uppercase;
+          font: 700 1rem 'Inter', sans-serif;
+          padding: 10px 20px;
+          background: #6CDA75;
+          border-radius: 3px;
+          color: #fff;
+          white-space: nowrap; }
+          @media (max-width: 375px) {
+            .recomended_game .raiting_container .item_short_wrap .item_btn_casino .link_item {
+              padding: 8px 12px;
+              border: none;
+              font: 700 .95rem 'Inter', sans-serif; } }
+    .recomended_game .raiting_container .raiting_item_box:last-child .item_short_wrap {
+      border: none;
+      margin: 0;
+      padding-bottom: 0; }
+  .recomended_game .raiting_btn_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 15px; }
+    @media (max-width: 990px) {
+      .recomended_game .raiting_btn_wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 10px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between; } }
+    .recomended_game .raiting_btn_wrap a {
+      font: 700 1rem 'Inter', sans-serif;
+      color: #4482CD;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding: 15px 25px; }
+      @media (max-width: 576px) {
+        .recomended_game .raiting_btn_wrap a {
+          padding: 15px;
+          font: 700 .87rem 'Inter', sans-serif; } }
+      .recomended_game .raiting_btn_wrap a img {
+        margin-left: 5px; }
+    .recomended_game .raiting_btn_wrap .show_more {
+      grid-column-start: 2;
+      margin: 0 auto;
+      border-radius: 3px;
+      background: #ECF1FF; }
+      @media (max-width: 990px) {
+        .recomended_game .raiting_btn_wrap .show_more {
+          margin-left: 0; } }
+      .recomended_game .raiting_btn_wrap .show_more img {
+        position: relative;
+        top: 1px; }
+    .recomended_game .raiting_btn_wrap .view_all {
+      padding-right: 0;
+      margin: 0 auto;
+      margin-right: 0;
+      grid-column-start: 3; }
+      .recomended_game .raiting_btn_wrap .view_all img {
+        position: relative;
+        top: 1px; }
+  .recomended_game .item_hide_wrap {
+    margin-top: 10px;
+    display: none;
+    margin-bottom: 20px; }
+    @media (max-width: 1200px) {
+      .recomended_game .item_hide_wrap {
+        margin-bottom: 0; } }
+  .recomended_game .hide_btn_wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .recomended_game .hide_btn_wrap .hide_btn {
+      padding: 10px 20px;
+      border: 2px solid #4482CD;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border-radius: 3px;
+      color: #4482CD;
+      text-align: center;
+      margin: 0 auto;
+      font: 700 1.125rem 'Inter', sans-serif; }
+  .recomended_game .hide_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-bottom: 10px; }
+    @media (max-width: 1200px) {
+      .recomended_game .hide_container {
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+        grid-gap: 10px; } }
+    .recomended_game .hide_container .item_hide_title {
+      margin-bottom: 10px;
+      font: 700 1.125rem 'Inter', sans-serif; }
+    .recomended_game .hide_container .item_hide_text {
+      font: 400 .95rem/22px 'Inter', sans-serif; }
+    .recomended_game .hide_container .item_hide_list {
+      padding: 0 20px;
+      border-left: 1px solid rgba(0, 0, 0, 0.2);
+      border-right: 1px solid rgba(0, 0, 0, 0.2); }
+      @media (max-width: 1200px) {
+        .recomended_game .hide_container .item_hide_list {
+          border: none;
+          padding: 15px 0;
+          border-top: 1px solid rgba(0, 0, 0, 0.2);
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2); } }
+      .recomended_game .hide_container .item_hide_list ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 12px; }
+        .recomended_game .hide_container .item_hide_list ul li {
+          padding-left: 30px;
+          position: relative;
+          font: 400 .95rem 'Inter', sans-serif; }
+        .recomended_game .hide_container .item_hide_list ul .minus::before {
+          content: '+';
+          height: 21px;
+          width: 21px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          color: #fff;
+          position: absolute;
+          left: 0;
+          background: #FF4B55;
+          top: -2px;
+          border-radius: 50%;
+          font: 700 1rem 'Inter', sans-serif; }
+        .recomended_game .hide_container .item_hide_list ul .plus::before {
+          content: '-';
+          height: 21px;
+          width: 21px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          border-radius: 50%;
+          background: #6CDA75;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          color: #fff;
+          position: absolute;
+          left: 0;
+          top: -2px;
+          font: 700 1rem 'Inter', sans-serif; }
+    .recomended_game .hide_container .quick_box {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 140px 1fr;
+      margin-bottom: 12px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .recomended_game .hide_container .quick_box .quick_title {
+        font: 400 .95rem 'Inter', sans-serif;
+        color: rgba(0, 0, 0, 0.3); }
+      .recomended_game .hide_container .quick_box .quick_item {
+        font: 400 .95rem 'Inter', sans-serif; }
+      .recomended_game .hide_container .quick_box a {
+        color: #4482CD; }
+      .recomended_game .hide_container .quick_box .sup {
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis;
+        width: 160px;
+        overflow: hidden;
+        color: #000;
+        text-decoration: underline; }
+
 .not_found {
   height: 90vh; }
   @media (max-width: 576px) {
