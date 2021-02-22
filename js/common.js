@@ -213,3 +213,16 @@ $(".dis").on("click", function() {
     $(".red").removeClass("red_active");
     $(".details_tabs").removeClass("red_active_border");
 });
+
+const swiper4 = new Swiper('.soft_holl_slider', {
+    loop: false,
+    centerInsufficientSlides: false,
+    centeredSlides: false,
+    slidesPerView: 1,
+    spaceBetween: 15,
+    grabCursor: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});
