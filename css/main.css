@@ -1,4 +1,86 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  background: #f8f9fc;
+  font-family: 'Inter', sans-serif; }
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0; }
+
+button {
+  outline: none; }
+
+.tabs__content {
+  display: none; }
+
+.tabs__content.active {
+  display: block; }
+
+.padding {
+  padding: 0 70px; }
+  @media (max-width: 1400px) {
+    .padding {
+      padding: 0 30px; } }
+  @media (max-width: 990px) {
+    .padding {
+      padding: 0 15px; } }
+
+.padding_mob {
+  padding: 0 70px; }
+  @media (max-width: 1400px) {
+    .padding_mob {
+      padding: 0 30px; } }
+  @media (max-width: 990px) {
+    .padding_mob {
+      padding: 0 15px; } }
+  @media (max-width: 576px) {
+    .padding_mob {
+      padding: 0; } }
+
+.padding_sm {
+  padding: 0 70px; }
+  @media (max-width: 1400px) {
+    .padding_sm {
+      padding: 0 30px; } }
+  @media (max-width: 990px) {
+    .padding_sm {
+      padding: 0 15px; } }
+  @media (max-width: 576px) {
+    .padding_sm {
+      padding: 0 10px; } }
+
+.margin {
+  margin-bottom: 60px; }
+  @media (max-width: 990px) {
+    .margin {
+      margin-bottom: 35px; } }
+
+main {
+  min-height: -webkit-calc(100vh - 80px);
+  min-height: calc(100vh - 80px); }
+
+a {
+  text-decoration: none; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
 header {
   background: #262845;
   -webkit-box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
@@ -4919,6 +5001,1648 @@ header {
         .faq .acc_body p {
           font: 400 .87rem/20px 'Inter', sans-serif; } }
 
+.page_casino_container {
+  display: grid;
+  grid-template-columns: 1fr 275px;
+  grid-gap: 30px;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+      -ms-flex-align: start;
+          align-items: start; }
+  @media (max-width: 990px) {
+    .page_casino_container {
+      display: block; } }
+
+.page_casino .show_more {
+  display: none; }
+  @media (max-width: 576px) {
+    .page_casino .show_more {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      font: 400 .9rem 'Inter', sans-serif;
+      color: #55B56B;
+      padding: 0 15px;
+      margin-bottom: 15px; } }
+  .page_casino .show_more img {
+    position: relative;
+    left: 5px;
+    top: 1.5px; }
+
+@media (max-width: 576px) {
+  .page_casino .hide_text {
+    height: 120px;
+    overflow: hidden; } }
+
+.page_casino .hide_text_active {
+  height: auto; }
+
+.page_casino .casino_title_box {
+  padding: 15px 30px;
+  background: #4482CD;
+  border-radius: 7px 7px 0 0;
+  margin-bottom: 20px; }
+  @media (max-width: 990px) {
+    .page_casino .casino_title_box {
+      padding: 12px 15px;
+      margin-bottom: 10px; } }
+  .page_casino .casino_title_box p {
+    color: #fff;
+    font: 700 1.25rem 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .casino_title_box p {
+        font: 700 1.125rem 'Inter', sans-serif; } }
+
+.page_casino .simple_casino_text {
+  color: #000;
+  padding: 0 30px;
+  margin-bottom: 35px;
+  font: 400 .95rem/22px 'Inter', sans-serif; }
+  @media (max-width: 990px) {
+    .page_casino .simple_casino_text {
+      font: 400 .87rem/20px 'Inter', sans-serif;
+      padding: 0 15px;
+      margin-bottom: 10px; } }
+  .page_casino .simple_casino_text a {
+    text-decoration: underline;
+    color: #3aa4dd; }
+  .page_casino .simple_casino_text span {
+    text-decoration: none;
+    color: #3aa4dd; }
+
+.page_casino .simple_casino_title {
+  color: #000;
+  font: 700 1.25rem 'Inter', sans-serif;
+  margin-bottom: 10px;
+  padding: 0 30px; }
+  @media (max-width: 990px) {
+    .page_casino .simple_casino_title {
+      font: 700 1.125rem 'Inter', sans-serif;
+      padding: 0 15px; } }
+
+.page_casino .page_casino_boxs {
+  margin-bottom: 25px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  padding-bottom: 25px; }
+  @media (max-width: 990px) {
+    .page_casino .page_casino_boxs {
+      padding-bottom: 15px;
+      margin: 0;
+      margin-bottom: 20px; } }
+  @media (max-width: 576px) {
+    .page_casino .page_casino_boxs {
+      padding-bottom: 15px;
+      margin: 0 10px;
+      margin-bottom: 20px; } }
+
+.page_casino .margin_none {
+  margin: 0; }
+
+.page_casino .page_about_casino {
+  padding: 15px 25px; }
+  @media (max-width: 1280px) {
+    .page_casino .page_about_casino {
+      padding: 15px; } }
+  @media (max-width: 576px) {
+    .page_casino .page_about_casino .hide_text {
+      height: 40px; } }
+  .page_casino .page_about_casino .hide_text_active {
+    height: auto; }
+  .page_casino .page_about_casino .show_more {
+    padding: 0;
+    margin: 5px 0 0 0; }
+  .page_casino .page_about_casino .page_about_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    -webkit-box-align: start;
+    -webkit-align-items: start;
+        -ms-flex-align: start;
+            align-items: start; }
+    @media (max-width: 1280px) {
+      .page_casino .page_about_casino .page_about_wrap {
+        grid-gap: 5px; } }
+    @media (max-width: 990px) {
+      .page_casino .page_about_casino .page_about_wrap {
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        margin-bottom: 10px; } }
+  .page_casino .page_about_casino .page_casino_star {
+    padding: 10px 15px;
+    background: #F9F9F9;
+    border-radius: 5px; }
+    @media (max-width: 576px) {
+      .page_casino .page_about_casino .page_casino_star {
+        padding: 10px; } }
+    .page_casino .page_about_casino .page_casino_star .page_all_star {
+      margin-bottom: 10px;
+      display: grid;
+      grid-gap: 5px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      grid-template-columns: 200px 1fr; }
+      @media (max-width: 1280px) {
+        .page_casino .page_about_casino .page_casino_star .page_all_star {
+          grid-template-columns: 160px 1fr; } }
+      @media (max-width: 576px) {
+        .page_casino .page_about_casino .page_casino_star .page_all_star {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between; } }
+      .page_casino .page_about_casino .page_casino_star .page_all_star .title {
+        font: 600 .95rem 'Inter', sans-serif; }
+      .page_casino .page_about_casino .page_casino_star .page_all_star .star {
+        color: #6CDA75;
+        font: 600 .95rem 'Inter', sans-serif; }
+        .page_casino .page_about_casino .page_casino_star .page_all_star .star span {
+          font: 400 .95rem 'Inter', sans-serif; }
+    .page_casino .page_about_casino .page_casino_star .page_box_star {
+      margin-bottom: 10px;
+      display: grid;
+      grid-gap: 5px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      grid-template-columns: 200px 1fr; }
+      @media (max-width: 1280px) {
+        .page_casino .page_about_casino .page_casino_star .page_box_star {
+          grid-template-columns: 160px 1fr; } }
+      @media (max-width: 576px) {
+        .page_casino .page_about_casino .page_casino_star .page_box_star {
+          grid-template-columns: 1fr;
+          grid-gap: 10px; } }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .title {
+        font: 500 .95rem 'Inter', sans-serif; }
+        @media (max-width: 1280px) {
+          .page_casino .page_about_casino .page_casino_star .page_box_star .title {
+            font: 500 .87rem 'Inter', sans-serif; } }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .star_element {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .page_casino .page_about_casino .page_casino_star .page_box_star .star_element span {
+          background: #D8D8D8;
+          height: 4px;
+          width: 100%;
+          border-radius: 10px; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .one span:first-child {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .two span:first-child {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .two span:nth-child(2) {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .three span:first-child {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .three span:nth-child(2) {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .three span:nth-child(3) {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .four span:first-child {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .four span:nth-child(2) {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .four span:nth-child(3) {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .four span:nth-child(4) {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .five span:first-child {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .five span:nth-child(2) {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .five span:nth-child(3) {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .five span:nth-child(4) {
+        background: #6CDA75; }
+      .page_casino .page_about_casino .page_casino_star .page_box_star .five span:nth-child(5) {
+        background: #6CDA75; }
+    .page_casino .page_about_casino .page_casino_star .page_box_star:last-child {
+      margin: 0; }
+  .page_casino .page_about_casino .page_casino_img {
+    display: grid;
+    grid-template-columns: 145px 1fr;
+    grid-gap: 10px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 15px; }
+    @media (max-width: 990px) {
+      .page_casino .page_about_casino .page_casino_img {
+        margin-bottom: 10px; } }
+    @media (max-width: 576px) {
+      .page_casino .page_about_casino .page_casino_img {
+        grid-template-columns: 125px 1fr; } }
+    @media (max-width: 340px) {
+      .page_casino .page_about_casino .page_casino_img {
+        grid-template-columns: 1fr; } }
+    @media (max-width: 340px) {
+      .page_casino .page_about_casino .page_casino_img .casino_img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        max-width: 100%; } }
+    .page_casino .page_about_casino .page_casino_img .casino_name_box .name {
+      color: #000;
+      margin-bottom: 5px;
+      font: 600 1.5rem 'Inter', sans-serif; }
+      @media (max-width: 1280px) {
+        .page_casino .page_about_casino .page_casino_img .casino_name_box .name {
+          font: 600 1.25rem 'Inter', sans-serif; } }
+    .page_casino .page_about_casino .page_casino_img .casino_name_box .county_box_wrap {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .page_casino .page_about_casino .page_casino_img .casino_name_box .county_box_wrap .country_box {
+        position: relative;
+        margin-right: 10px; }
+        .page_casino .page_about_casino .page_casino_img .casino_name_box .county_box_wrap .country_box .check {
+          position: absolute;
+          right: -8px;
+          top: -5px; }
+      .page_casino .page_about_casino .page_casino_img .casino_name_box .county_box_wrap .country_name {
+        font: 400 .95rem 'Inter', sans-serif; }
+        @media (max-width: 1280px) {
+          .page_casino .page_about_casino .page_casino_img .casino_name_box .county_box_wrap .country_name {
+            font: 400 .9rem 'Inter', sans-serif; } }
+  .page_casino .page_about_casino .bonus_casino {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 15px; }
+    @media (max-width: 990px) {
+      .page_casino .page_about_casino .bonus_casino {
+        margin-bottom: 10px; } }
+    .page_casino .page_about_casino .bonus_casino .bonus_text {
+      margin-right: 10px;
+      color: #000;
+      font: 400 1rem 'Inter', sans-serif;
+      opacity: .5; }
+    .page_casino .page_about_casino .bonus_casino .bonus_box {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .page_casino .page_about_casino .bonus_casino .bonus_box p {
+        color: #FFCF24;
+        font: 600 1.25rem 'Inter', sans-serif;
+        margin-right: 5px; }
+  .page_casino .page_about_casino .bonus_btn {
+    padding: 15px;
+    background: #6CDA75;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    font: 600 1.125rem 'Inter', sans-serif;
+    max-width: 200px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase; }
+    @media (max-width: 990px) {
+      .page_casino .page_about_casino .bonus_btn {
+        margin-bottom: 10px; } }
+    @media (max-width: 576px) {
+      .page_casino .page_about_casino .bonus_btn {
+        width: 100%;
+        max-width: 100%;
+        display: block; } }
+  .page_casino .page_about_casino .info_autohr {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 15px; }
+    @media (max-width: 1280px) {
+      .page_casino .page_about_casino .info_autohr {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+                align-items: flex-start; } }
+    @media (max-width: 990px) {
+      .page_casino .page_about_casino .info_autohr {
+        margin-bottom: 10px; } }
+    .page_casino .page_about_casino .info_autohr p {
+      margin-right: 10px;
+      color: #898989;
+      font: 400 .95rem 'Inter', sans-serif; }
+      .page_casino .page_about_casino .info_autohr p span {
+        opacity: 1;
+        color: #000;
+        text-decoration: underline; }
+  .page_casino .page_about_casino .page_casino_text {
+    color: #000;
+    font: 400 .95rem/22px 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .page_about_casino .page_casino_text {
+        font: 400 .87rem/21px 'Inter', sans-serif; } }
+
+.page_casino .page_casino_navigation {
+  background: #fff;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media (max-width: 1400px) {
+    .page_casino .page_casino_navigation {
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; } }
+  @media (max-width: 990px) {
+    .page_casino .page_casino_navigation {
+      -webkit-flex-wrap: nowrap;
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      padding: 8px 5px;
+      overflow-y: scroll; } }
+  @media (max-width: 576px) {
+    .page_casino .page_casino_navigation {
+      margin: 0 10px;
+      margin-bottom: 20px; } }
+  .page_casino .page_casino_navigation a {
+    white-space: nowrap;
+    padding: 12px;
+    text-align: center;
+    display: block;
+    color: #000;
+    text-transform: capitalize;
+    font: 400 1rem 'Inter', sans-serif;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_navigation a {
+        min-width: 110px; } }
+    .page_casino .page_casino_navigation a:hover {
+      background: #4482CD;
+      color: #fff; }
+
+.page_casino .page_casino_previews {
+  margin-bottom: 25px; }
+  @media (max-width: 575px) {
+    .page_casino .page_casino_previews {
+      margin: 0 10px;
+      margin-bottom: 15px; } }
+  .page_casino .page_casino_previews .previevs_title {
+    color: #000;
+    margin-bottom: 10px;
+    font: 700 1.25rem 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_previews .previevs_title {
+        font: 700 1.125rem 'Inter', sans-serif; } }
+  .page_casino .page_casino_previews .previevs_text {
+    color: #000;
+    margin-bottom: 10px;
+    font: 400 .95rem/22px 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_previews .previevs_text {
+        font: 400 .87rem/21px 'Inter', sans-serif; } }
+  .page_casino .page_casino_previews .casino_previews_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px; }
+    @media (max-width: 1200px) {
+      .page_casino .page_casino_previews .casino_previews_wrap {
+        grid-template-columns: 1fr 1fr 1fr; } }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_previews .casino_previews_wrap {
+        overflow-y: scroll;
+        padding-bottom: 10px;
+        grid-template-columns: 130px 130px 130px 130px 130px 130px; } }
+    .page_casino .page_casino_previews .casino_previews_wrap .casino_previews_box {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .page_casino .page_casino_previews .casino_previews_wrap .casino_previews_box img {
+        -o-object-fit: cover;
+           object-fit: cover;
+        margin-bottom: 10px;
+        width: 100%;
+        border-radius: 5px; }
+      .page_casino .page_casino_previews .casino_previews_wrap .casino_previews_box p {
+        color: #000;
+        text-align: center;
+        font: 400 1rem 'Inter', sans-serif; }
+
+.page_casino .page_casino_hits {
+  margin-bottom: 25px; }
+  @media (max-width: 576px) {
+    .page_casino .page_casino_hits {
+      margin: 0 10px;
+      margin-bottom: 20px; } }
+  .page_casino .page_casino_hits .hits_title {
+    color: #000;
+    margin-bottom: 10px;
+    font: 700 1.25rem 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_hits .hits_title {
+        font: 700 1.125rem 'Inter', sans-serif; } }
+  .page_casino .page_casino_hits .details_tabs {
+    background: #fff;
+    border: 2px solid #55B56B;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 5px; }
+  .page_casino .page_casino_hits .tabs__caption {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .page_casino .page_casino_hits .tabs__caption li {
+      background: #F5F5F5;
+      padding: 15px 30px;
+      color: #000;
+      opacity: .7;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      cursor: pointer;
+      font: 400 1.3rem 'Inter', sans-serif; }
+      @media (max-width: 990px) {
+        .page_casino .page_casino_hits .tabs__caption li {
+          font: 400 1rem 'Inter', sans-serif;
+          padding: 10px 15px; } }
+      @media (max-width: 576px) {
+        .page_casino .page_casino_hits .tabs__caption li {
+          font: 400 .9rem 'Inter', sans-serif; } }
+      .page_casino .page_casino_hits .tabs__caption li img {
+        margin-right: 8px;
+        position: relative; }
+        @media (max-width: 350px) {
+          .page_casino .page_casino_hits .tabs__caption li img {
+            display: none; } }
+    .page_casino .page_casino_hits .tabs__caption .active {
+      opacity: 1;
+      color: #fff;
+      background: #55B56B; }
+  .page_casino .page_casino_hits .tabs_detail_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 30px;
+    padding: 25px 30px; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_hits .tabs_detail_wrap {
+        padding: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px; } }
+    @media (max-width: 576px) {
+      .page_casino .page_casino_hits .tabs_detail_wrap {
+        grid-template-columns: 1fr;
+        grid-gap: 15px; } }
+    .page_casino .page_casino_hits .tabs_detail_wrap li {
+      color: #000;
+      font: 400 .95rem 'Inter', sans-serif;
+      position: relative;
+      padding-left: 9px; }
+      .page_casino .page_casino_hits .tabs_detail_wrap li::after {
+        content: '+';
+        position: absolute;
+        left: -8px;
+        top: -2px;
+        color: #55B56B; }
+
+.page_casino .page_casino_details {
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  margin-bottom: 20px; }
+  @media (max-width: 576px) {
+    .page_casino .page_casino_details {
+      margin: 0 10px;
+      margin-bottom: 20px; } }
+  .page_casino .page_casino_details .tabs__caption {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .page_casino .page_casino_details .tabs__caption li {
+      background: #F5F5F5;
+      padding: 15px 30px;
+      color: #000;
+      opacity: .7;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      cursor: pointer;
+      font: 400 1.2rem 'Inter', sans-serif; }
+      @media (max-width: 990px) {
+        .page_casino .page_casino_details .tabs__caption li {
+          font: 400 1rem 'Inter', sans-serif;
+          padding: 10px 15px; } }
+      @media (max-width: 576px) {
+        .page_casino .page_casino_details .tabs__caption li {
+          font: 400 .9rem 'Inter', sans-serif; } }
+      .page_casino .page_casino_details .tabs__caption li img {
+        margin-left: 10px;
+        position: relative;
+        top: 1.5px; }
+        @media (max-width: 990px) {
+          .page_casino .page_casino_details .tabs__caption li img {
+            top: 0;
+            margin-left: 5px; } }
+        @media (max-width: 350px) {
+          .page_casino .page_casino_details .tabs__caption li img {
+            display: none; } }
+    .page_casino .page_casino_details .tabs__caption .active {
+      opacity: 1;
+      background: transparent; }
+  .page_casino .page_casino_details .tabs_detail_wrap {
+    padding: 15px 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_details .tabs_detail_wrap {
+        padding: 10px 15px; } }
+    .page_casino .page_casino_details .tabs_detail_wrap .detail_box {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      grid-gap: 15px; }
+      @media (max-width: 768px) {
+        .page_casino .page_casino_details .tabs_detail_wrap .detail_box {
+          grid-template-columns: 1fr;
+          grid-gap: 5px; } }
+      .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_title {
+        color: #000;
+        font: 400 .95rem 'Inter', sans-serif; }
+        @media (max-width: 340px) {
+          .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_title {
+            font: 400 .9rem 'Inter', sans-serif; } }
+      .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements a,
+      .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements span,
+      .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements p {
+        font: 400 .95rem 'Inter', sans-serif;
+        color: #28ADFF; }
+        @media (max-width: 340px) {
+          .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements a,
+          .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements span,
+          .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements p {
+            font: 400 .9rem 'Inter', sans-serif; } }
+        .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements a:hover,
+        .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements span:hover,
+        .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements p:hover {
+          text-decoration: underline; }
+
+.page_casino .casino_bonuses {
+  margin: 0;
+  margin-bottom: 30px; }
+  @media (max-width: 576px) {
+    .page_casino .casino_bonuses {
+      margin: 0 10px 25px 10px; } }
+  .page_casino .casino_bonuses .bonus_title {
+    text-align: center;
+    color: #000;
+    margin-bottom: 10px;
+    font: 700 1.25rem 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .casino_bonuses .bonus_title {
+        font: 700 1.125rem 'Inter', sans-serif; } }
+  .page_casino .casino_bonuses .generate_casino_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px; }
+    @media (max-width: 1240px) {
+      .page_casino .casino_bonuses .generate_casino_wrap {
+        width: 750px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        overflow-y: scroll;
+        grid-template-columns: 180px 180px 180px 180px 180px; } }
+    @media (max-width: 1100px) {
+      .page_casino .casino_bonuses .generate_casino_wrap {
+        width: 700px; } }
+    @media (max-width: 1100px) {
+      .page_casino .casino_bonuses .generate_casino_wrap {
+        width: 625px; } }
+    @media (max-width: 990px) {
+      .page_casino .casino_bonuses .generate_casino_wrap {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box; } }
+  .page_casino .casino_bonuses .generate_casino_box {
+    padding: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; }
+    .page_casino .casino_bonuses .generate_casino_box .copyinfo {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 12px; }
+      .page_casino .casino_bonuses .generate_casino_box .copyinfo .copyinfo_text {
+        color: #000;
+        margin-right: 8px;
+        font: 400 .9rem 'Inter', sans-serif; }
+      .page_casino .casino_bonuses .generate_casino_box .copyinfo .copy_suc {
+        display: none; }
+      .page_casino .casino_bonuses .generate_casino_box .copyinfo img {
+        cursor: pointer; }
+      .page_casino .casino_bonuses .generate_casino_box .copyinfo .none {
+        font: 400 .9rem 'Inter', sans-serif;
+        color: rgba(0, 0, 0, 0.5); }
+    .page_casino .casino_bonuses .generate_casino_box .suces .copyinfo_text {
+      display: none; }
+    .page_casino .casino_bonuses .generate_casino_box .suces img {
+      display: none; }
+    .page_casino .casino_bonuses .generate_casino_box .suces .copy_suc {
+      color: #55B56B;
+      display: block;
+      font: 400 .9rem 'Inter', sans-serif; }
+    .page_casino .casino_bonuses .generate_casino_box .generate_casino_img {
+      background: #F5F5F5;
+      border-radius: 5px 5px 0 0;
+      padding: 25px 20px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 10px; }
+      .page_casino .casino_bonuses .generate_casino_box .generate_casino_img img {
+        -o-object-fit: contain;
+           object-fit: contain;
+        max-width: 100%;
+        height: auto; }
+    .page_casino .casino_bonuses .generate_casino_box .generate_brend_img {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 10px; }
+      .page_casino .casino_bonuses .generate_casino_box .generate_brend_img img {
+        -o-object-fit: contain;
+           object-fit: contain;
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%; }
+    .page_casino .casino_bonuses .generate_casino_box .coll_star {
+      text-align: center;
+      padding: 0 10px;
+      margin-bottom: 10px;
+      color: #000;
+      font: 400 1.125rem 'Inter', sans-serif; }
+    .page_casino .casino_bonuses .generate_casino_box .generate_casino_title {
+      font: 400 .9rem 'Inter', sans-serif;
+      margin-bottom: 5px;
+      color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 0 20px; }
+    .page_casino .casino_bonuses .generate_casino_box .generate_casino_bonus {
+      color: #000;
+      text-align: center;
+      padding: 0 20px;
+      margin-bottom: 10px;
+      font: 700 .87rem/20px 'Inter', sans-serif; }
+    .page_casino .casino_bonuses .generate_casino_box .generate_casino_info {
+      color: #000;
+      opacity: .5;
+      cursor: pointer;
+      padding: 0 20px;
+      text-align: center;
+      font: 400 .75rem 'Inter', sans-serif;
+      text-align: center;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding-bottom: 15px; }
+      .page_casino .casino_bonuses .generate_casino_box .generate_casino_info:hover {
+        color: #0185FF; }
+    .page_casino .casino_bonuses .generate_casino_box .generate_casino_btn {
+      text-transform: uppercase;
+      background: #6CDA75;
+      border-radius: 3px;
+      padding: 10px;
+      width: 85%;
+      margin: 0 auto;
+      display: block;
+      color: #fff;
+      font: 700 1rem 'Inter', sans-serif;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      text-align: center;
+      margin-bottom: 12px;
+      -webkit-transition: .2s;
+      -o-transition: .2s;
+      transition: .2s; }
+      .page_casino .casino_bonuses .generate_casino_box .generate_casino_btn:hover {
+        background: #2d9b47; }
+    .page_casino .casino_bonuses .generate_casino_box .btn_disabled {
+      pointer-events: none;
+      background: #F5F5F5;
+      color: #B4B4B4; }
+
+.page_casino .app_casino .app_casino_info {
+  padding: 15px;
+  background: #F5F5F5;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  margin: 0 30px; }
+  @media (max-width: 990px) {
+    .page_casino .app_casino .app_casino_info {
+      margin: 0 15px; } }
+  .page_casino .app_casino .app_casino_info .app_casino_title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000;
+    font: 700 1.2rem 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .app_casino .app_casino_info .app_casino_title {
+        font: 700 1.1rem 'Inter', sans-serif; } }
+  .page_casino .app_casino .app_casino_info .app_casino_wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .page_casino .app_casino .app_casino_info .app_casino_wrap .app_casino_box {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 10px 20px; }
+      .page_casino .app_casino .app_casino_info .app_casino_wrap .app_casino_box img {
+        margin-bottom: 5px; }
+      .page_casino .app_casino .app_casino_info .app_casino_wrap .app_casino_box p {
+        font: 400 1.1rem 'Inter', sans-serif;
+        color: #000; }
+
+.page_casino .total_info .total_title_games {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #000;
+  font: 700 1.2rem 'Inter', sans-serif; }
+  @media (max-width: 990px) {
+    .page_casino .total_info .total_title_games {
+      font: 700 1.1rem 'Inter', sans-serif; } }
+
+.page_casino .total_info .total_games_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+  padding: 20px;
+  margin: 0 30px;
+  margin-bottom: 25px;
+  background: #F5F5F5;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 7px; }
+  @media (max-width: 1200px) {
+    .page_casino .total_info .total_games_wrap {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px 15px; } }
+  @media (max-width: 990px) {
+    .page_casino .total_info .total_games_wrap {
+      margin: 0 15px;
+      margin-bottom: 15px; } }
+  .page_casino .total_info .total_games_wrap .total_games_box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    pointer-events: none;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 3px solid #4482CD;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 5px;
+    opacity: .4; }
+    .page_casino .total_info .total_games_wrap .total_games_box img {
+      -o-object-fit: contain;
+         object-fit: contain;
+      margin-top: 10px; }
+    .page_casino .total_info .total_games_wrap .total_games_box p {
+      color: #000;
+      padding: 15px;
+      text-align: center;
+      font: 400 1rem 'Inter', sans-serif; }
+  .page_casino .total_info .total_games_wrap .total_games_box_active {
+    opacity: 1;
+    pointer-events: auto;
+    position: relative; }
+    .page_casino .total_info .total_games_wrap .total_games_box_active::before {
+      content: url(../img/page_casino/check.svg);
+      position: absolute;
+      left: -12px;
+      top: -12px; }
+
+.page_casino .total_info .devices_tabs {
+  margin: 0 30px; }
+  @media (max-width: 990px) {
+    .page_casino .total_info .devices_tabs {
+      margin: 0 15px; } }
+  .page_casino .total_info .devices_tabs .tabs__caption {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    bottom: -5px;
+    z-index: 9; }
+    @media (max-width: 1400px) {
+      .page_casino .total_info .devices_tabs .tabs__caption {
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around; } }
+    .page_casino .total_info .devices_tabs .tabs__caption li {
+      cursor: pointer;
+      color: #000;
+      opacity: .7;
+      margin: 0 50px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      text-align: center;
+      padding: 10px 30px;
+      font: 500 1.2rem 'Inter', sans-serif; }
+      @media (max-width: 1400px) {
+        .page_casino .total_info .devices_tabs .tabs__caption li {
+          margin: 0; } }
+      @media (max-width: 990px) {
+        .page_casino .total_info .devices_tabs .tabs__caption li {
+          margin: 0 10px;
+          padding: 10px 20px; } }
+      @media (max-width: 990px) {
+        .page_casino .total_info .devices_tabs .tabs__caption li {
+          text-align: center;
+          font: 500 1rem 'Inter', sans-serif; } }
+      @media (max-width: 380px) {
+        .page_casino .total_info .devices_tabs .tabs__caption li {
+          margin: 0;
+          font: 500 .95rem 'Inter', sans-serif; } }
+      @media (max-width: 340px) {
+        .page_casino .total_info .devices_tabs .tabs__caption li {
+          padding: 10px;
+          margin: 0;
+          font: 500 .95rem 'Inter', sans-serif; } }
+    .page_casino .total_info .devices_tabs .tabs__caption .active {
+      opacity: 1;
+      color: #55B56B;
+      position: relative; }
+      .page_casino .total_info .devices_tabs .tabs__caption .active::before {
+        content: '';
+        height: 5px;
+        width: 100%;
+        background: #55B56B;
+        border-radius: 5px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 9; }
+  .page_casino .total_info .devices_tabs .tabs__content {
+    border: 5px solid #F5F5F5;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 7px;
+    padding: 20px; }
+    @media (max-width: 990px) {
+      .page_casino .total_info .devices_tabs .tabs__content {
+        padding: 15px 10px; } }
+    .page_casino .total_info .devices_tabs .tabs__content .tabs__content_wrap {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+      @media (max-width: 576px) {
+        .page_casino .total_info .devices_tabs .tabs__content .tabs__content_wrap {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 10px; } }
+      .page_casino .total_info .devices_tabs .tabs__content .tabs__content_wrap img {
+        -o-object-fit: contain;
+           object-fit: contain;
+        margin: 10px; }
+        @media (max-width: 576px) {
+          .page_casino .total_info .devices_tabs .tabs__content .tabs__content_wrap img {
+            margin: 0; } }
+
+.page_casino .payments_box .payment_table_wrap {
+  padding: 15px 30px;
+  background: #F5F5F5;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  margin: 0 30px;
+  margin-bottom: 20px; }
+  @media (max-width: 990px) {
+    .page_casino .payments_box .payment_table_wrap {
+      padding: 15px 10px;
+      margin: 0 15px;
+      margin-bottom: 20px; } }
+  .page_casino .payments_box .payment_table_wrap .table_title {
+    margin-bottom: 10px;
+    font: 700 1.2rem 'Inter', sans-serif;
+    color: #000; }
+    @media (max-width: 990px) {
+      .page_casino .payments_box .payment_table_wrap .table_title {
+        text-align: center;
+        font: 700 1.125rem 'Inter', sans-serif; } }
+  .page_casino .payments_box .payment_table_wrap table {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed; }
+  .page_casino .payments_box .payment_table_wrap .center {
+    text-align: center; }
+    @media (max-width: 990px) {
+      .page_casino .payments_box .payment_table_wrap .center {
+        text-align: right; } }
+  .page_casino .payments_box .payment_table_wrap thead tr {
+    background: #42456B; }
+  .page_casino .payments_box .payment_table_wrap thead tr th {
+    color: #fff; }
+  .page_casino .payments_box .payment_table_wrap table tr {
+    padding: .35em; }
+  .page_casino .payments_box .payment_table_wrap thead th {
+    color: #000;
+    font: 400 1rem 'Inter', sans-serif;
+    padding: 10px; }
+  .page_casino .payments_box .payment_table_wrap table th,
+  .page_casino .payments_box .payment_table_wrap table td {
+    padding: 10px;
+    text-align: left;
+    color: #000;
+    font: 400 1rem 'Inter', sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2); }
+  @media (max-width: 990px) {
+    .page_casino .payments_box .payment_table_wrap table {
+      padding: 0; }
+    .page_casino .payments_box .payment_table_wrap table th,
+    .page_casino .payments_box .payment_table_wrap table td {
+      border-right: none; }
+    .page_casino .payments_box .payment_table_wrap table {
+      border: 0; }
+    .page_casino .payments_box .payment_table_wrap table caption {
+      font-size: 1.3em; }
+    .page_casino .payments_box .payment_table_wrap table thead {
+      display: none; }
+    .page_casino .payments_box .payment_table_wrap table tr {
+      border-right: none;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      display: block;
+      margin-bottom: 10px;
+      padding: 0;
+      background: transparent; }
+    .page_casino .payments_box .payment_table_wrap table tr:last-child {
+      margin: 0; }
+    .page_casino .payments_box .payment_table_wrap table td {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      display: block;
+      font-size: .87rem;
+      text-align: right; }
+    .page_casino .payments_box .payment_table_wrap table td:before {
+      content: attr(aria-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .page_casino .payments_box .payment_table_wrap table td:last-child {
+      border-bottom: none; } }
+
+.page_casino .payments_box .payment_table_wrap:last-child {
+  margin-bottom: 0; }
+
+.page_casino .page_casino_support .custom_support_wrap {
+  padding: 20px;
+  margin: 0 30px;
+  background: #F5F5F5;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 7px; }
+  @media (max-width: 990px) {
+    .page_casino .page_casino_support .custom_support_wrap {
+      padding: 15px;
+      margin: 0 15px; } }
+  .page_casino .page_casino_support .custom_support_wrap .title {
+    margin-bottom: 10px;
+    color: #000;
+    font: 700 1.2rem 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_support .custom_support_wrap .title {
+        text-align: center;
+        font: 700 1.1rem 'Inter', sans-serif; } }
+  .page_casino .page_casino_support .custom_support_wrap .services_wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-bottom: 15px; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_support .custom_support_wrap .services_wrap {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px; } }
+    .page_casino .page_casino_support .custom_support_wrap .services_wrap .services_box:first-child img {
+      position: relative;
+      top: 15px; }
+    .page_casino .page_casino_support .custom_support_wrap .services_wrap .services_box {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin-right: 40px;
+      margin-bottom: 10px;
+      height: 76px; }
+      @media (max-width: 990px) {
+        .page_casino .page_casino_support .custom_support_wrap .services_wrap .services_box {
+          margin: 0; } }
+      .page_casino .page_casino_support .custom_support_wrap .services_wrap .services_box img {
+        margin-bottom: 15px; }
+        @media (max-width: 990px) {
+          .page_casino .page_casino_support .custom_support_wrap .services_wrap .services_box img {
+            margin-bottom: 10px; } }
+      .page_casino .page_casino_support .custom_support_wrap .services_wrap .services_box p {
+        font: 400 1.125rem 'Inter', sans-serif;
+        color: #000; }
+        @media (max-width: 990px) {
+          .page_casino .page_casino_support .custom_support_wrap .services_wrap .services_box p {
+            font: 400 1rem 'Inter', sans-serif; } }
+    .page_casino .page_casino_support .custom_support_wrap .services_wrap .services_box_disabled {
+      opacity: .3; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_support .custom_support_wrap .services_wrap .services_box:last-child {
+        grid-column-start: 1;
+        grid-column-end: 3; } }
+  @media (max-width: 990px) {
+    .page_casino .page_casino_support .custom_support_wrap .none_mob {
+      display: none; } }
+  .page_casino .page_casino_support .custom_support_wrap .lang_wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_support .custom_support_wrap .lang_wrap {
+        display: none; } }
+    .page_casino .page_casino_support .custom_support_wrap .lang_wrap .lang_box {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-right: 15px;
+      margin-bottom: 10px; }
+      .page_casino .page_casino_support .custom_support_wrap .lang_wrap .lang_box img {
+        max-width: 100%;
+        -o-object-fit: contain;
+           object-fit: contain; }
+
+.page_casino .page_casino_conclus {
+  padding: 20px;
+  background: #4482CD;
+  border-radius: 7px;
+  margin-bottom: 30px; }
+  @media (max-width: 990px) {
+    .page_casino .page_casino_conclus {
+      padding: 15px; } }
+  @media (max-width: 576px) {
+    .page_casino .page_casino_conclus {
+      margin: 0 10px;
+      margin-bottom: 20px; } }
+  .page_casino .page_casino_conclus .conclus_title_box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 10px; }
+    .page_casino .page_casino_conclus .conclus_title_box .conclus_title {
+      color: #fff;
+      font: 700 1.25rem 'Inter', sans-serif; }
+      @media (max-width: 990px) {
+        .page_casino .page_casino_conclus .conclus_title_box .conclus_title {
+          font: 700 1.125rem 'Inter', sans-serif; } }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_conclus .conclus_title_box .conclus_star {
+        display: none; } }
+  .page_casino .page_casino_conclus .conclus_star {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    @media (max-width: 576px) {
+      .page_casino .page_casino_conclus .conclus_star img {
+        max-width: 15px;
+        max-height: 15px; } }
+    .page_casino .page_casino_conclus .conclus_star .star_all {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .page_casino .page_casino_conclus .conclus_star .star_full {
+      margin: 0 3px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .page_casino .page_casino_conclus .conclus_star .star_med {
+      margin: 0 3px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .page_casino .page_casino_conclus .conclus_star .star_dis {
+      margin: 0 3px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .page_casino .page_casino_conclus .conclus_star .all_star_text {
+      font: 700 1.25rem 'Inter', sans-serif;
+      color: #fff;
+      margin-left: 5px; }
+      @media (max-width: 990px) {
+        .page_casino .page_casino_conclus .conclus_star .all_star_text {
+          font: 700 1rem 'Inter', sans-serif; } }
+      .page_casino .page_casino_conclus .conclus_star .all_star_text span {
+        font: 700 1.125rem 'Inter', sans-serif; }
+        @media (max-width: 990px) {
+          .page_casino .page_casino_conclus .conclus_star .all_star_text span {
+            font: 700 .9rem 'Inter', sans-serif; } }
+  .page_casino .page_casino_conclus .star_mob {
+    display: none; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_conclus .star_mob {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 10px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: column-reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+                align-items: flex-start; } }
+    .page_casino .page_casino_conclus .star_mob .all_star_text {
+      margin-bottom: 5px; }
+  .page_casino .page_casino_conclus .conclus_text {
+    color: #fff;
+    font: 400 .95rem/22px 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .page_casino_conclus .conclus_text {
+        font: 400 .87rem/20px 'Inter', sans-serif; } }
+
+.page_casino .author_post_wrap {
+  padding: 20px 25px;
+  background: #fff;
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-gap: 20px;
+  position: relative; }
+  @media (max-width: 990px) {
+    .page_casino .author_post_wrap {
+      grid-template-columns: 55px 1fr;
+      padding: 15px;
+      grid-gap: 10px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+  @media (max-width: 576px) {
+    .page_casino .author_post_wrap {
+      margin: 0 10px;
+      margin-bottom: 20px; } }
+  .page_casino .author_post_wrap img {
+    border-radius: 50%;
+    max-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+    @media (max-width: 990px) {
+      .page_casino .author_post_wrap img {
+        max-width: 55px;
+        max-height: 55px; } }
+  .page_casino .author_post_wrap .author_post_info .pretitle {
+    color: #000;
+    margin-bottom: 5px;
+    font: 400 .95rem 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .author_post_wrap .author_post_info .pretitle {
+        margin: 0; } }
+  .page_casino .author_post_wrap .author_post_info .name {
+    color: #000;
+    margin-bottom: 5px;
+    font: 700 1.5rem 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .author_post_wrap .author_post_info .name {
+        margin: 0;
+        font: 700 1.25rem 'Inter', sans-serif; } }
+  .page_casino .author_post_wrap .author_post_info .description {
+    color: #000;
+    font: 400 .87rem/20px 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .author_post_wrap .author_post_info .description {
+        display: none; } }
+  .page_casino .author_post_wrap .mob_elem {
+    display: none;
+    color: #000;
+    font: 400 .87rem/20px 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .author_post_wrap .mob_elem {
+        display: block;
+        grid-column-start: 1;
+        grid-column-end: 3; } }
+
+.page_casino .generate_casino {
+  margin: 0;
+  margin-bottom: 30px; }
+  @media (max-width: 576px) {
+    .page_casino .generate_casino {
+      margin-bottom: 15px;
+      margin: 0 10px; } }
+  .page_casino .generate_casino .generate_casino_title {
+    font: 700 1.5rem 'Inter', sans-serif;
+    text-align: center;
+    color: #000;
+    margin-bottom: 5px; }
+    @media (max-width: 990px) {
+      .page_casino .generate_casino .generate_casino_title {
+        font: 700 1.25rem 'Inter', sans-serif; } }
+  .page_casino .generate_casino .generate_casino_text {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+    color: #000;
+    margin-bottom: 15px;
+    font: 400 .95rem/22px 'Inter', sans-serif; }
+    @media (max-width: 990px) {
+      .page_casino .generate_casino .generate_casino_text {
+        font: 400 .87rem/20px 'Inter', sans-serif; } }
+  .page_casino .generate_casino .generate_custom_casino {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px; }
+    @media (max-width: 1280px) {
+      .page_casino .generate_casino .generate_custom_casino {
+        grid-template-columns: 1fr 1fr 1fr; } }
+    @media (max-width: 990px) {
+      .page_casino .generate_casino .generate_custom_casino {
+        grid-template-columns: 1fr 1fr; } }
+  .page_casino .generate_casino .generate_casino_box {
+    padding: 10px 15px;
+    background: #FFF;
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; }
+    .page_casino .generate_casino .generate_casino_box .generate_casino_img {
+      background: #1085D3;
+      border-radius: 5px;
+      padding: 20px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 10px; }
+      .page_casino .generate_casino .generate_casino_box .generate_casino_img img {
+        -o-object-fit: contain;
+           object-fit: contain;
+        max-width: 100%;
+        height: auto; }
+    .page_casino .generate_casino .generate_casino_box .generate_brend_img {
+      background: #1085D3;
+      border-radius: 5px;
+      padding: 20px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      height: 85px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 10px; }
+      .page_casino .generate_casino .generate_casino_box .generate_brend_img img {
+        -o-object-fit: contain;
+           object-fit: contain;
+        max-width: 100%;
+        height: auto; }
+    .page_casino .generate_casino .generate_casino_box .generate_casino_title {
+      font: 400 .95rem 'Inter', sans-serif;
+      margin-bottom: 5px; }
+    .page_casino .generate_casino .generate_casino_box .generate_casino_bonus {
+      color: #6CDA75;
+      text-align: center;
+      margin-bottom: 7px;
+      font: 700 .87rem/20px 'Inter', sans-serif; }
+    .page_casino .generate_casino .generate_casino_box .generate_casino_info {
+      color: #000;
+      opacity: .5;
+      cursor: pointer;
+      text-align: center;
+      font: 400 .75rem 'Inter', sans-serif;
+      text-align: center;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .page_casino .generate_casino .generate_casino_box .generate_casino_info:hover {
+        color: #0185FF; }
+    .page_casino .generate_casino .generate_casino_box .generate_casino_btn {
+      text-transform: uppercase;
+      background: #4482CD;
+      border-radius: 3px;
+      padding: 10px;
+      width: 100%;
+      display: block;
+      color: #fff;
+      font: 700 1rem "Inter", sans-serif;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      text-align: center;
+      margin-bottom: 5px;
+      -webkit-transition: .2s;
+      -o-transition: .2s;
+      transition: .2s; }
+      .page_casino .generate_casino .generate_casino_box .generate_casino_btn:hover {
+        background: #396EAF; }
+
 .sidebar {
   margin-bottom: 20px; }
   @media (max-width: 576px) {
@@ -5126,6 +6850,58 @@ header {
   border-bottom: 1px solid #000;
   text-align: center;
   font: 700 1.2rem 'Inter', sans-serif; }
+
+.sidebar_top {
+  padding: 20px 10px;
+  background: #fff;
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .sidebar_top img {
+    max-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-bottom: 10px; }
+  .sidebar_top .name_top {
+    color: #000;
+    margin-bottom: 12px;
+    font: 600 1.375rem 'Inter', sans-serif; }
+  .sidebar_top .visit_top {
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px 50px;
+    font: 600 1.1rem 'Inter', sans-serif;
+    text-align: center;
+    background: #55B56B;
+    border-radius: 3px; }
 
 .not_found {
   height: 90vh; }
@@ -5688,85 +7464,3 @@ footer {
   -webkit-transition: .2s;
   -o-transition: .2s;
   transition: .2s; }
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  overflow-x: hidden;
-  background: #f8f9fc;
-  font-family: 'Inter', sans-serif; }
-
-.container {
-  max-width: 1280px;
-  margin: 0 auto; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-  margin: 0; }
-
-button {
-  outline: none; }
-
-.tabs__content {
-  display: none; }
-
-.tabs__content.active {
-  display: block; }
-
-.padding {
-  padding: 0 70px; }
-  @media (max-width: 1400px) {
-    .padding {
-      padding: 0 30px; } }
-  @media (max-width: 990px) {
-    .padding {
-      padding: 0 15px; } }
-
-.padding_mob {
-  padding: 0 70px; }
-  @media (max-width: 1400px) {
-    .padding_mob {
-      padding: 0 30px; } }
-  @media (max-width: 990px) {
-    .padding_mob {
-      padding: 0 15px; } }
-  @media (max-width: 576px) {
-    .padding_mob {
-      padding: 0; } }
-
-.padding_sm {
-  padding: 0 70px; }
-  @media (max-width: 1400px) {
-    .padding_sm {
-      padding: 0 30px; } }
-  @media (max-width: 990px) {
-    .padding_sm {
-      padding: 0 15px; } }
-  @media (max-width: 576px) {
-    .padding_sm {
-      padding: 0 10px; } }
-
-.margin {
-  margin-bottom: 60px; }
-  @media (max-width: 990px) {
-    .margin {
-      margin-bottom: 35px; } }
-
-main {
-  min-height: -webkit-calc(100vh - 80px);
-  min-height: calc(100vh - 80px); }
-
-a {
-  text-decoration: none; }
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none; }

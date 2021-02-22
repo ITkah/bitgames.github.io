@@ -186,3 +186,35 @@
     text-align: center;
     font: 700 1.2rem 'Inter', sans-serif;
 }
+
+.sidebar_top {
+    padding: 20px 10px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+        max-width: 100%;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+    .name_top {
+        color: #000;
+        margin-bottom: 12px;
+        font: 600 1.375rem 'Inter', sans-serif;
+    }
+    .visit_top {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 50px;
+        font: 600 1.1rem 'Inter', sans-serif;
+        text-align: center;
+        background: #55B56B;
+        border-radius: 3px;
+    }
+}
