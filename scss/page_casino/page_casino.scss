@@ -1382,8 +1382,8 @@
         margin: 0;
         margin-bottom: 30px;
         @media (max-width: 576px) {
-            margin-bottom: 15px;
             margin: 0 10px;
+            margin-bottom: 15px;
         }
         .generate_casino_title {
             font: 700 1.5rem 'Inter', sans-serif;
@@ -1493,5 +1493,21 @@
                 }
             }
         }
+    }
+}
+
+.copyinfo {
+    position: relative;
+}
+
+.copy_img {
+    cursor: pointer;
+    &::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
     }
 }
