@@ -5710,20 +5710,28 @@ header {
         @media (max-width: 340px) {
           .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_title {
             font: 400 .9rem 'Inter', sans-serif; } }
-      .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements a,
-      .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements span,
-      .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements p {
+      .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements {
         font: 400 .95rem 'Inter', sans-serif;
         color: #28ADFF; }
         @media (max-width: 340px) {
-          .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements a,
-          .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements span,
-          .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements p {
+          .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements {
             font: 400 .9rem 'Inter', sans-serif; } }
-        .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements a:hover,
-        .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements span:hover,
-        .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements p:hover {
+        .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements:hover {
           text-decoration: underline; }
+        .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements a,
+        .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements span,
+        .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements p {
+          font: 400 .95rem 'Inter', sans-serif;
+          color: #28ADFF; }
+          @media (max-width: 340px) {
+            .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements a,
+            .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements span,
+            .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements p {
+              font: 400 .9rem 'Inter', sans-serif; } }
+          .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements a:hover,
+          .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements span:hover,
+          .page_casino .page_casino_details .tabs_detail_wrap .detail_box .detail_elements p:hover {
+            text-decoration: underline; }
 
 .page_casino .casino_bonuses {
   margin: 0;

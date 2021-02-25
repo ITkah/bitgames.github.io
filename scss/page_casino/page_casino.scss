@@ -642,6 +642,14 @@
                     }
                 }
                 .detail_elements {
+                    font: 400 .95rem 'Inter', sans-serif;
+                    color: #28ADFF;
+                    @media (max-width: 340px) {
+                        font: 400 .9rem 'Inter', sans-serif;
+                    }
+                    &:hover {
+                        text-decoration: underline;
+                    }
                     a,
                     span,
                     p {
