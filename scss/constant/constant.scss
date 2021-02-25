@@ -91,3 +91,39 @@ ul {
     padding: 0;
     list-style-type: none;
 }
+
+.readactor_output {
+    p {
+        font: 400 .95rem/24px 'Inter', sans-serif!important;
+        @media (max-width: 990px) {
+            font: 400 .87rem/21px 'Inter', sans-serif!important;
+        }
+    }
+    a {
+        color: #55B56B!important;
+        display: inline-block!important;
+        text-decoration: underline!important;
+        font: 400 .95rem/24px 'Inter', sans-serif;
+        @media (max-width: 990px) {
+            font: 400 .87rem/21px 'Inter', sans-serif;
+        }
+    }
+    span {
+        color: #55B56B!important;
+        display: inline-block!important;
+        font: 400 .95rem/24px 'Inter', sans-serif!important;
+        @media (max-width: 990px) {
+            font: 400 .87rem/21px 'Inter', sans-serif!important;
+        }
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font: 700 1.4rem 'Inter', sans-serif!important;
+        @media (max-width: 990px) {
+            font: 700 1.125rem 'Inter', sans-serif!important;
+        }
+    }
+}

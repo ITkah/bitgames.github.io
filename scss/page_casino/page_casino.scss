@@ -563,6 +563,14 @@
                 }
             }
         }
+        .tabs__content:last-child {
+            li {
+                &::after {
+                    content: '-';
+                    color: #FF4B55;
+                }
+            }
+        }
     }
     .page_casino_details {
         background: #fff;
