@@ -6294,6 +6294,17 @@ header {
     .page_casino .page_casino_support .custom_support_wrap .services_wrap .services_box:first-child img {
       position: relative;
       top: 15px; }
+    .page_casino .page_casino_support .custom_support_wrap .services_wrap .star_wraper {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .page_casino .page_casino_support .custom_support_wrap .services_wrap .star_wraper img {
+        margin: 0 2px; }
     .page_casino .page_casino_support .custom_support_wrap .services_wrap .services_box {
       display: -webkit-box;
       display: -webkit-flex;

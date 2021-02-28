@@ -1170,6 +1170,13 @@
                         top: 15px;
                     }
                 }
+                .star_wraper {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        margin: 0 2px;
+                    }
+                }
                 .services_box {
                     display: flex;
                     align-items: center;
