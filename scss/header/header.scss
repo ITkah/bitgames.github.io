@@ -255,7 +255,6 @@ header {
                         }
                     }
                     a {
-                        white-space: nowrap;
                         color: #fff;
                         display: block;
                     }
@@ -269,6 +268,7 @@ header {
                         &::after {
                             position: absolute;
                             right: 0;
+                            top: 18%;
                             transform: rotate(-90deg);
                             content: url(../img/header/arrows.svg);
                             @media (max-width: 990px) {

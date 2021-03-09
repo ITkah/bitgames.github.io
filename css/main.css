@@ -464,7 +464,6 @@ header {
               display: -ms-flexbox;
               display: flex; } }
         .header_nav ul li .sub_menu li a {
-          white-space: nowrap;
           color: #fff;
           display: block; }
         .header_nav ul li .sub_menu li .arrow_link {
@@ -477,6 +476,7 @@ header {
           .header_nav ul li .sub_menu li .arrow_link::after {
             position: absolute;
             right: 0;
+            top: 18%;
             -webkit-transform: rotate(-90deg);
                 -ms-transform: rotate(-90deg);
                     transform: rotate(-90deg);
