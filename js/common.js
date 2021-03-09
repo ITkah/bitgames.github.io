@@ -56,8 +56,7 @@ $('.faq_wrap .acc_head').on('click', function() {
 });
 
 $(".show_more").on("click", function() {
-    $(this).siblings(".hide_text").addClass("hide_text_active");
-    $(this).remove();
+    $(this).siblings(".hide_text").toggleClass("hide_text_active");
 });
 
 $('ul.tabs__caption').on('click', 'li:not(.active)', function() {
