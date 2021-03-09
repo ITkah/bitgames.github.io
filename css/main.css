@@ -476,7 +476,7 @@ header {
           .header_nav ul li .sub_menu li .arrow_link::after {
             position: absolute;
             right: 0;
-            top: 18%;
+            top: 8%;
             -webkit-transform: rotate(-90deg);
                 -ms-transform: rotate(-90deg);
                     transform: rotate(-90deg);
