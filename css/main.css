@@ -1149,8 +1149,8 @@ header {
         .raiting .raiting_container .item_short_wrap .item_img_casino img {
           max-width: 100%;
           height: auto;
-          -o-object-fit: contain;
-             object-fit: contain;
+          -o-object-fit: cover;
+             object-fit: cover;
           margin-right: 15px; }
           @media (max-width: 375px) {
             .raiting .raiting_container .item_short_wrap .item_img_casino img {
@@ -3135,8 +3135,8 @@ header {
             .blog_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino img {
               max-width: 100%;
               height: auto;
-              -o-object-fit: contain;
-                 object-fit: contain;
+              -o-object-fit: cover;
+                 object-fit: cover;
               margin-right: 15px; }
               @media (max-width: 375px) {
                 .blog_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino img {
@@ -4458,8 +4458,8 @@ header {
           .catalog_casino .catalog_casino_wrap .raiting_container .item_short_wrap .item_img_casino img {
             max-width: 100%;
             height: auto;
-            -o-object-fit: contain;
-               object-fit: contain;
+            -o-object-fit: cover;
+               object-fit: cover;
             margin-right: 15px; }
             @media (max-width: 375px) {
               .catalog_casino .catalog_casino_wrap .raiting_container .item_short_wrap .item_img_casino img {
@@ -7485,8 +7485,8 @@ header {
       .software_list .raiting_container .item_short_wrap .item_img_casino img {
         max-width: 100%;
         height: auto;
-        -o-object-fit: contain;
-           object-fit: contain;
+        -o-object-fit: cover;
+           object-fit: cover;
         margin-right: 15px; }
         @media (max-width: 375px) {
           .software_list .raiting_container .item_short_wrap .item_img_casino img {
@@ -9117,8 +9117,8 @@ header {
             .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino img {
               max-width: 100%;
               height: auto;
-              -o-object-fit: contain;
-                 object-fit: contain;
+              -o-object-fit: cover;
+                 object-fit: cover;
               margin-right: 15px; }
               @media (max-width: 375px) {
                 .game_post_wrap .blog_post_content .post_content_wrap .raiting_wrap .raiting_container .item_short_wrap .item_img_casino img {
@@ -10064,8 +10064,8 @@ header {
         .recomended_game .raiting_container .item_short_wrap .item_img_casino img {
           max-width: 100%;
           height: auto;
-          -o-object-fit: contain;
-             object-fit: contain;
+          -o-object-fit: cover;
+             object-fit: cover;
           margin-right: 15px; }
           @media (max-width: 375px) {
             .recomended_game .raiting_container .item_short_wrap .item_img_casino img {
