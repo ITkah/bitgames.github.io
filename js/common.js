@@ -30,6 +30,10 @@ $(".sub_menu .arrow_mob").on("click", function() {
     $(this).siblings(".sub_menu_2").slideToggle(200);
 });
 
+$(".sub_menu_2 .arrow_mob").on("click", function() {
+    $(this).siblings(".sub_menu_3").slideToggle(200);
+});
+
 $(".call_menu").on("click", function() {
     $(".header_nav").toggleClass("header_nav_active");
 });

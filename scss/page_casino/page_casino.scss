@@ -705,6 +705,9 @@
             background: #fff;
             box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
             border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             .copyinfo {
                 display: flex;
                 align-items: center;
@@ -1118,7 +1121,6 @@
                     font-size: .87rem;
                     text-align: right;
                     min-height: 35px;
-                    
                 }
                 table td:before {
                     content: attr(aria-label);
@@ -1443,6 +1445,9 @@
             background: #FFF;
             box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
             border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             .generate_casino_img {
                 background: #1085D3;
                 border-radius: 5px;

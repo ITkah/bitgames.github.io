@@ -6,12 +6,9 @@ header {
 .header_wrap {
     padding: 18px 0;
     display: grid;
-    grid-template-columns: 2fr 4fr 2fr;
+    grid-template-columns: 1fr 5fr 1fr;
     grid-gap: 20px;
     align-items: center;
-    @media (max-width: 1200px) {
-        grid-template-columns: 1fr 3fr 1fr;
-    }
     @media (max-width: 990px) {
         display: flex;
         padding: 15px 0;
@@ -288,7 +285,7 @@ header {
                         display: flex;
                         flex-direction: column;
                         transition: .2s;
-                        height: 100%;
+                        height: auto;
                         box-sizing: border-box;
                         display: flex;
                         flex-direction: column;
@@ -310,6 +307,20 @@ header {
                             transition: auto;
                             box-sizing: border-box;
                         }
+                        &::after {
+                            content: '';
+                            height: 300%;
+                            width: 100%;
+                            background: transparent;
+                            position: absolute;
+                            right: 0;
+                            top: 100%;
+                            left: 0;
+                            bottom: 0;
+                            @media (max-width: 990px) {
+                                display: none;
+                            }
+                        }
                         &::before {
                             content: '';
                             height: 95%;
@@ -328,6 +339,10 @@ header {
                                 @media (max-width: 990px) {
                                     background: transparent;
                                 }
+                                .sub_menu_3 {
+                                    pointer-events: auto;
+                                    opacity: 1;
+                                }
                                 a {
                                     color: #FFCF24;
                                 }
@@ -335,6 +350,78 @@ header {
                             a {
                                 color: #fff;
                             }
+                        }
+                    }
+                }
+                .sub_menu_3 {
+                    position: absolute;
+                    top: 0;
+                    opacity: 1;
+                    z-index: 99;
+                    left: 99%;
+                    padding: 5px 0;
+                    background: #42456B;
+                    border-radius: 0 3px 3px 0;
+                    display: flex;
+                    flex-direction: column;
+                    transition: .2s;
+                    height: auto;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    opacity: 0;
+                    pointer-events: none;
+                    &::after {
+                        content: '';
+                        height: 300%;
+                        width: 100%;
+                        background: transparent;
+                        position: absolute;
+                        right: 0;
+                        top: 100%;
+                        left: 0;
+                        bottom: 0;
+                        @media (max-width: 990px) {
+                            display: none;
+                        }
+                    }
+                    @media (max-width: 990px) {
+                        position: relative;
+                        top: auto;
+                        left: 0;
+                        padding: 0;
+                        background: transparent;
+                        box-shadow: none;
+                        border-radius: 0;
+                        opacity: 1;
+                        pointer-events: auto;
+                        width: 100%;
+                        display: none;
+                        transition: auto;
+                        box-sizing: border-box;
+                    }
+                    &::before {
+                        content: '';
+                        height: 95%;
+                        top: 5px;
+                        width: 1px;
+                        position: absolute;
+                        left: 0;
+                        background: rgba(255, 255, 255, 0.2);
+                        @media (max-width: 990px) {
+                            display: none;
+                        }
+                    }
+                    li {
+                        &:hover {
+                            background: rgba(255, 255, 255, .15);
+                            @media (max-width: 990px) {
+                                background: transparent;
+                            }
+                        }
+                        a {
+                            color: #fff!important;
                         }
                     }
                 }

@@ -380,6 +380,9 @@
                 box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
                 border-radius: 5px;
                 padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 .generate_casino_img {
                     background: transparent;
                     border-radius: 5px 5px 0 0;
@@ -1070,6 +1073,9 @@
                 box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
                 border-radius: 5px;
                 padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 .generate_casino_img {
                     background: transparent;
                     border-radius: 0;
@@ -1230,6 +1236,9 @@
         box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
         border-radius: 5px;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         .generate_casino_img {
             background: transparent;
             border-radius: 0;
