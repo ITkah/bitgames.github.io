@@ -81,6 +81,36 @@ ul {
   padding: 0;
   list-style-type: none; }
 
+.hide_text_infos {
+  height: 70px;
+  overflow: hidden; }
+  @media (max-width: 990px) {
+    .hide_text_infos {
+      height: 83px; } }
+
+.hide_text_active {
+  height: auto; }
+
+.show_more_infos {
+  margin: 10px 0;
+  cursor: pointer;
+  font: 400 .9rem 'Inter', sans-serif;
+  color: #55B56B;
+  display: none;
+  margin-bottom: 15px;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none; }
+  .show_more_infos::after {
+    position: relative;
+    left: 5px;
+    content: url(../img/home/arr_show.svg); }
+
+.active_show {
+  opacity: 1;
+  display: block;
+  pointer-events: auto; }
+
 .readactor_output p {
   font: 400 0.95rem/24px "Inter", sans-serif !important; }
   @media (max-width: 990px) {
