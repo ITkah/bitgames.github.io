@@ -240,3 +240,14 @@ const swiper4 = new Swiper('.soft_holl_slider', {
         clickable: true,
     },
 });
+
+
+
+$(".call_poll").on("click", function() {
+    $(".poll_table").toggleClass("poll_table_act");
+});
+
+$(".call_poll").on("click", function(e) {
+    e.preventDefault();
+    $(".suc_poll").removeClass("poll_table_act");
+});
