@@ -251,6 +251,9 @@
                     grid-column-start: 1;
                     grid-column-end: 3;
                 }
+                a {
+                    margin-right: 10px;
+                }
                 img {
                     max-width: 100%;
                     height: auto;
@@ -1072,6 +1075,7 @@
                     background: #42456B;
                     border-radius: 2px;
                     width: 32px;
+                    min-width: 32px;
                     display: flex;
                     align-items: center;
                     justify-content: center;

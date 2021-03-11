@@ -523,6 +523,9 @@
                                 grid-column-start: 1;
                                 grid-column-end: 3;
                             }
+                            a {
+                                margin-right: 10px;
+                            }
                             img {
                                 max-width: 100%;
                                 height: auto;
@@ -1405,6 +1408,9 @@
                 @media (max-width: 1200px) {
                     grid-column-start: 1;
                     grid-column-end: 3;
+                }
+                a {
+                    margin-right: 10px;
                 }
                 img {
                     max-width: 100%;
