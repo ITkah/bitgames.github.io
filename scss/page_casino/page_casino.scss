@@ -626,6 +626,64 @@
             @media (max-width: 990px) {
                 padding: 10px 15px;
             }
+            .detail_elements_list {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-gap: 10px;
+                @media (max-height: 990px) {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+                li {
+                    font: 400 .87rem 'Inter', sans-serif;
+                }
+                .active_more {
+                    display: flex;
+                    flex-direction: column;
+                    ul {
+                        display: none;
+                    }
+                    li {
+                        display: block;
+                    }
+                    p {
+                        display: flex;
+                        align-items: center;
+                    }
+                    span {
+                        position: relative;
+                        right: -5px;
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 5px;
+                        border: 1px solid #000;
+                        width: 5px;
+                        padding: 5px;
+                        border-radius: 4px;
+                    }
+                }
+                .active_more_click {
+                    ul {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                        grid-gap: 10px;
+                        margin-top: 10px;
+                        @media (max-height: 990px) {
+                            grid-template-columns: 1fr 1fr 1fr 1fr;
+                        }
+                        li {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .detail_block {
+                display: block;
+                .empty_element {
+                    display: none;
+                }
+            }
             .detail_box {
                 display: grid;
                 grid-template-columns: 150px 1fr;

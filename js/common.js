@@ -242,6 +242,17 @@ const swiper4 = new Swiper('.soft_holl_slider', {
 });
 
 
+$.fn.extend({
+    toggleText: function(a, b) {
+        return this.text(this.text() == b ? a : b);
+    }
+});
+
+$(".active_more").on("click", function() {
+    $(this).toggleClass("active_more_click");
+    $(this).children("p").children("span").toggleText('+', '-');
+    $(".detail_elements_list").toggleClass("detail_block");
+});
 
 $(".call_poll").on("click", function() {
     $(".poll_table").toggleClass("poll_table_act");
