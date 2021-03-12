@@ -683,6 +683,12 @@
                 .empty_element {
                     display: none;
                 }
+                .hide_block {
+                    display: none;
+                }
+                .active_more_click {
+                    display: flex;
+                }
             }
             .detail_box {
                 display: grid;

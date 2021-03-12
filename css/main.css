@@ -5947,6 +5947,13 @@ header {
       display: block; }
       .page_casino .page_casino_details .tabs_detail_wrap .detail_block .empty_element {
         display: none; }
+      .page_casino .page_casino_details .tabs_detail_wrap .detail_block .hide_block {
+        display: none; }
+      .page_casino .page_casino_details .tabs_detail_wrap .detail_block .active_more_click {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
     .page_casino .page_casino_details .tabs_detail_wrap .detail_box {
       display: grid;
       grid-template-columns: 150px 1fr;

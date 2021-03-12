@@ -249,6 +249,7 @@ $.fn.extend({
 });
 
 $(".active_more").on("click", function() {
+    $(".active_more").toggleClass("hide_block");
     $(this).toggleClass("active_more_click");
     $(this).children("p").children("span").toggleText('+', '-');
     $(".detail_elements_list").toggleClass("detail_block");
